@@ -21,7 +21,7 @@ export const publicRoutes = [
     component: IntroducePage,
   },
   {
-    path: "/service",
+    path: "/service/:slug",
     component: ServicePage,
   },
   {

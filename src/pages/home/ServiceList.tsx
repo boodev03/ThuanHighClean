@@ -7,7 +7,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-export default function ServiceIntroduce() {
+import { services } from "@/data/services";
+export default function ServiceList() {
   return (
     <section className="container mx-auto mt-[60px]">
       <h2 className="text-[32px] text-[#333] font-bold mb-10">
@@ -21,22 +22,17 @@ export default function ServiceIntroduce() {
         }}
       >
         <CarouselContent>
-          {Array.from({ length: 6 }).map((_, index) => (
+          {services.map((service, index) => (
             <CarouselItem
               key={index}
               className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
             >
               <div>
                 <img className="block" src="/assets/images/service_1.jpg" />
-                <p className="mt-2 mb-4 text-xl font-bold">
-                  Dịch vụ giặt ghế Sofa
-                </p>
-                <p className="text-[#383838] mb-4">
-                  Việc mua sắm thực phẩm và đồ dùng gia đình trở nên tiện lợi
-                  hơn bao giờ hết. Giao hàng tận nơi chỉ sau 1h.
-                </p>
+                <p className="mt-2 mb-4 text-xl font-bold">{service.name}</p>
+                <p className="text-[#383838] mb-4">{service.description}</p>
                 <Link
-                  to="/"
+                  to={`/service/${service.slug}`}
                   className="text-[#555] hover:text-black transition-all duration-200 border-b border-[#ddd] hover:border-black"
                 >
                   Tìm hiểu thêm
