@@ -1,21 +1,28 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { privateRoutes, publicRoutes } from "./config/Route";
-import "./App.css";
+import "./index.css";
+import DefaultLayout from "./components/DefaultLayout";
 
 function App() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <BrowserRouter>
         <Routes>
-          {publicRoutes.map((route) => {
-            const Page = route.component;
-            return <Route path={route.path} element={<Page />} />;
-          })}
+          <Route element={<DefaultLayout />}>
+            {publicRoutes.map((route) => {
+              const Page = route.component;
+              return (
+                <Route key={route.path} path={route.path} element={<Page />} />
+              );
+            })}
+          </Route>
         </Routes>
         <Routes>
           {privateRoutes.map((route) => {
             const Page = route.component;
-            return <Route path={route.path} element={<Page />} />;
+            return (
+              <Route key={route.path} path={route.path} element={<Page />} />
+            );
           })}
         </Routes>
       </BrowserRouter>
