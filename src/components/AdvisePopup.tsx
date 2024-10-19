@@ -12,12 +12,12 @@ import { Button } from "./ui/button";
 const AdvisePopup = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [openCount, setOpenCount] = useState(0);
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    service: "",
-    message: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   phone: "",
+  //   service: "",
+  //   message: "",
+  // });
 
   useEffect(() => {
     if (openCount < 2) {
@@ -50,7 +50,7 @@ const AdvisePopup = () => {
             <input
               type="text"
               name="name"
-              value={formData.name}
+              // value={formData.name}
               className="w-full p-2 mt-2 border rounded-[8px] focus:outline-none focus:ring-2 focus:ring-primary"
               placeholder="Nhập họ và tên"
               required
@@ -63,7 +63,7 @@ const AdvisePopup = () => {
             <input
               type="tel"
               name="phone"
-              value={formData.phone}
+              // value={formData.phone}
               className="w-full p-2 mt-2 border rounded-[8px] focus:outline-none focus:ring-2 focus:ring-primary"
               placeholder="Nhập số điện thoại"
               required
@@ -75,7 +75,7 @@ const AdvisePopup = () => {
             </label>
             <select
               name="service"
-              value={formData.service}
+              // value={formData.service}
               className="w-full p-2 mt-2 border rounded-[8px] focus:outline-none focus:ring-2 focus:ring-primary"
               required
             >
@@ -93,7 +93,7 @@ const AdvisePopup = () => {
             </label>
             <textarea
               name="message"
-              value={formData.message}
+              // value={formData.message}
               className="w-full p-2 mt-2 border rounded-[8px] focus:outline-none focus:ring-2 focus:ring-primary"
               rows={4}
               placeholder="Nhập lời nhắn..."
