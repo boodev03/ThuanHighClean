@@ -72,10 +72,12 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
     },
   },
   {
-    id: "url",
+    accessorKey: "id",
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="Thao tác" />
     ),
-    cell: ({ row }) => <Link to={`/${row.getValue("url")}`}>Xem chi tiết</Link>,
+    cell: ({ row }) => (
+      <Link to={`/detail/${row.getValue("id")}`}>Xem chi tiết</Link>
+    ),
   },
 ];
