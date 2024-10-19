@@ -8,10 +8,11 @@ export default function IntroduceService() {
   const service = getServiceBySlug(slug as string);
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] text-[#333] font-bold mb-10 max-w-[50%]">
-        Tại sao nên chọn dịch vụ {service?.name} của bTaskee?
+      <h2 className="text-[32px] text-[#333] font-bold mb-10 lg:max-w-[50%]">
+        Tại sao nên chọn dịch vụ {service?.name} của{" "}
+        <span className="text-primary font-bold">Thuan High Clean</span>?
       </h2>
-      <div className="grid grid-cols-2 gap-[50px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-[50px]">
         <div>
           <img src={service?.coverImage} alt="sofa-clean" />
         </div>
@@ -26,7 +27,7 @@ export default function IntroduceService() {
                 </li>
               ))}
             <li className="!mt-5">
-              <Button>Trải nghiệm dịch vụ</Button>
+              <Button>Trải nghiệm dịch vụ ngay !</Button>
             </li>
           </ul>
         </div>

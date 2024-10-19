@@ -1,6 +1,5 @@
 import { FacebookIcon } from "@/icons/FacebookIcon";
-import { InstagramIcon } from "@/icons/InstagramIcon";
-import { YoutubeIcon } from "@/icons/YoutubeIcon";
+import { ZaloIcon } from "@/icons/ZaloIcon";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 import "./styles.css";
@@ -27,7 +26,10 @@ const serviceData = [
   { title: "Vệ sinh máy lạnh", link: "/ve-sinh-may-lanh" },
   { title: "Nấu ăn gia đình", link: "/nau-an-gia-dinh" },
   { title: "Giặt ủi", link: "/giat-ui" },
-  { title: "bTaskee cho doanh nghiệp", link: "/btaskee-cho-doanh-nghiep" },
+  {
+    title: "Thuan High Clean cho doanh nghiệp",
+    link: "/btaskee-cho-doanh-nghiep",
+  },
   { title: "Dọn dẹp buồng phòng", link: "/don-dep-buong-phong" },
   { title: "Khử khuẩn", link: "/khu-khuan" },
   { title: "Giặt ghế sofa", link: "/giat-ghe-sofa" },
@@ -38,25 +40,18 @@ const serviceData = [
 
 export default function Footer() {
   return (
-    <footer className={cn("footer", "pt-[50px] mt-[60px]")}>
+    <footer className={cn("footer", "pt-[50px]")}>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-5">
-          <div className="*:text-sm *:font-medium *:leading-[1.5]">
+          <div className="*:text-sm *:font-medium *:leading-[1.5] space-y-[10px]">
             <Link to="/">
-              {" "}
-              <img src="/public/assets/images/logo.png" />
+              <img src="/assets/images/logo.png" />
             </Link>
-            <p className="mt-5">
-              Công Ty TNHH bTaskee 284/25/20 Lý Thường Kiệt, Phường 14, Quận 10,
-              Tp.Hồ Chí Minh 72506
-            </p>
             <p>
-              Mã số doanh nghiệp: 0313723825 Đại Diện Công Ty: Ông Đỗ Đắc Nhân
-              Tâm
+              Công Ty TNHH THUAN HIGH Clean | Thủ Dức, Thành Phố Hồ Chí Minh
             </p>
-            <p>Chức vụ: Giám Đốc</p>
-            <p>Số điện thoại: 1900 636 736</p>
-            <p>Email: support@btaskee.com</p>
+            <p>Số điện thoại: 035 711 1566</p>
+            <p>Email: thuanhighclean@gmail.com</p>
           </div>
 
           <div />
@@ -96,26 +91,30 @@ export default function Footer() {
         <div className="pb-8 flex items-center justify-between">
           <div className="flex items-center gap-16">
             <span className="text-sm font-medium">
-              © 2016 - 2023 bTaskee Co., Ltd.
+              © 2024 Thuan High Clean Co., Ltd.
             </span>
             <div className="flex gap-5 items-center">
               <span className="text-sm font-medium uppercase">Follow Us</span>
               <ul className="flex gap-3 *:cursor-pointer *:transition-all *:duration-300">
                 <li className="size-6 bg-[#383838] rounded-full flex justify-center items-center hover:bg-primary">
-                  <FacebookIcon />
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100064357351583"
+                    target="_blank"
+                  >
+                    <FacebookIcon />
+                  </a>
                 </li>
                 <li className="size-6 bg-[#383838] rounded-full flex justify-center items-center hover:bg-primary">
-                  <InstagramIcon />
-                </li>
-                <li className="size-6 bg-[#383838] rounded-full flex justify-center items-center hover:bg-primary">
-                  <YoutubeIcon />
+                  <a href="https://zalo.me/0357111566" target="_blank">
+                    <ZaloIcon />
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
           <div>
             <img
-              src="./assets/images/certificate.png"
+              src="/assets/images/certificate.png"
               alt="Bộ công thương chứng nhận"
               className="w-[115px]"
             />

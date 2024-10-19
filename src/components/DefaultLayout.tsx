@@ -2,6 +2,8 @@ import { Outlet, useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "./Header";
 import { useLayoutEffect } from "react";
+import ContactOptions from "./ContactOptions";
+import AdvisePopup from "./AdvisePopup";
 
 export default function DefaultLayout() {
   const location = useLocation();
@@ -14,6 +16,8 @@ export default function DefaultLayout() {
       <Header />
       <Outlet />
       <Footer />
+      <ContactOptions />
+      <AdvisePopup />
     </>
   );
 }

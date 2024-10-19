@@ -3,7 +3,7 @@ import { Service } from "@/types/Service";
 export const services: Service[] = [
   {
     name: "Vệ sinh công nghiệp",
-    coverImage: "/public/assets/images/service-detail/clean-sofa.jpg",
+    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
     description:
       "Vệ sinh công nghiệp là dịch vụ làm sạch chuyên sâu cho các không gian như văn phòng, nhà xưởng, trung tâm thương mại... giúp loại bỏ bụi bẩn, vi khuẩn, và các vết bẩn cứng đầu, đảm bảo môi trường sạch sẽ, an toàn và nâng cao chất lượng không gian sống và làm việc.",
     usageReasons: [
@@ -17,11 +17,11 @@ export const services: Service[] = [
     ],
     actualResult: [
       {
-        image: "/public/assets/images/service_1.jpg",
+        image: "/assets/images/service_1.jpg",
         description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
       },
       {
-        image: "/public/assets/images/service_2.jpg",
+        image: "/assets/images/service_2.jpg",
         description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
       },
     ],
@@ -44,7 +44,7 @@ export const services: Service[] = [
   },
   {
     name: "Giặt nệm",
-    coverImage: "/public/assets/images/service-detail/clean-sofa.jpg",
+    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
     description:
       "Giặt nệm giúp loại bỏ bụi bẩn, vi khuẩn, và các vết bẩn tích tụ lâu ngày, đảm bảo nệm luôn sạch sẽ, thơm tho, an toàn cho sức khỏe của gia đình bạn.",
     usageReasons: [
@@ -58,11 +58,11 @@ export const services: Service[] = [
     ],
     actualResult: [
       {
-        image: "/public/assets/images/service_1.jpg",
+        image: "/assets/images/service_1.jpg",
         description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
       },
       {
-        image: "/public/assets/images/service_2.jpg",
+        image: "/assets/images/service_2.jpg",
         description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
       },
     ],
@@ -87,7 +87,7 @@ export const services: Service[] = [
   },
   {
     name: "Giặt rèm cửa",
-    coverImage: "/public/assets/images/service-detail/clean-sofa.jpg",
+    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
     description:
       "Giặt rèm cửa giúp loại bỏ bụi bẩn, phấn hoa và các tác nhân gây dị ứng, mang lại không gian sống trong lành và thoáng mát.",
     usageReasons: [
@@ -101,11 +101,11 @@ export const services: Service[] = [
     ],
     actualResult: [
       {
-        image: "/public/assets/images/service_1.jpg",
+        image: "/assets/images/service_1.jpg",
         description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
       },
       {
-        image: "/public/assets/images/service_2.jpg",
+        image: "/assets/images/service_2.jpg",
         description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
       },
     ],
@@ -130,7 +130,7 @@ export const services: Service[] = [
   },
   {
     name: "Tạp vụ văn phòng",
-    coverImage: "/public/assets/images/service-detail/clean-sofa.jpg",
+    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
     description:
       "Dịch vụ tạp vụ văn phòng giúp đảm bảo không gian làm việc luôn sạch sẽ, ngăn nắp, nâng cao năng suất làm việc và hình ảnh chuyên nghiệp cho doanh nghiệp.",
     usageReasons: [
@@ -144,11 +144,11 @@ export const services: Service[] = [
     ],
     actualResult: [
       {
-        image: "/public/assets/images/service_1.jpg",
+        image: "/assets/images/service_1.jpg",
         description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
       },
       {
-        image: "/public/assets/images/service_2.jpg",
+        image: "/assets/images/service_2.jpg",
         description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
       },
     ],
@@ -171,7 +171,7 @@ export const services: Service[] = [
   },
   {
     name: "Giặt thảm văn phòng",
-    coverImage: "/public/assets/images/service-detail/clean-sofa.jpg",
+    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
     description:
       "Giặt thảm văn phòng giúp loại bỏ bụi bẩn, vi khuẩn, và các vết bẩn cứng đầu, mang lại không gian làm việc sạch sẽ, chuyên nghiệp.",
     usageReasons: [
@@ -186,11 +186,11 @@ export const services: Service[] = [
 
     actualResult: [
       {
-        image: "/public/assets/images/service_1.jpg",
+        image: "/assets/images/service_1.jpg",
         description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
       },
       {
-        image: "/public/assets/images/service_2.jpg",
+        image: "/assets/images/service_2.jpg",
         description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
       },
     ],
@@ -215,7 +215,7 @@ export const services: Service[] = [
   },
   {
     name: "Giặt ghế Sofa",
-    coverImage: "/public/assets/images/service-detail/clean-sofa.jpg",
+    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
     description:
       "Giặt ghế sofa giúp loại bỏ bụi bẩn, vi khuẩn, nấm mốc và các vết bẩn cứng đầu, mang lại vẻ đẹp và độ bền cho ghế sofa của bạn.",
     usageReasons: [
@@ -229,11 +229,11 @@ export const services: Service[] = [
     ],
     actualResult: [
       {
-        image: "/public/assets/images/service_1.jpg",
+        image: "/assets/images/service_1.jpg",
         description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
       },
       {
-        image: "/public/assets/images/service_2.jpg",
+        image: "/assets/images/service_2.jpg",
         description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
       },
     ],

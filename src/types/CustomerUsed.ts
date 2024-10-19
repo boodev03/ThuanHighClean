@@ -6,4 +6,5 @@ export interface CustomerUsed {
   beforeImage: string;
   afterImage: string;
   url: string;
+  review: string;
 }
