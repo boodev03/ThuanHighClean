@@ -1,6 +1,6 @@
 export default function HighlightedCustomer() {
   return (
-    <section className="container mx-auto mt-[60px]">
+    <section className="container mx-auto my-[60px]">
       <h2 className="text-[32px] text-[#333] font-bold mb-10">
         Những thương hiệu đang sử dụng
       </h2>

@@ -100,9 +100,7 @@ const CustomerReviewCard = ({
   );
 };
 export default function CustomerReview() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: true })
-  );
+  const plugin = React.useRef(Autoplay({ delay: 4000 }));
   return (
     <section className="container mx-auto mt-[60px]">
       <h2 className="text-[32px] text-[#333] font-bold mb-10">
@@ -110,11 +108,10 @@ export default function CustomerReview() {
       </h2>
       <Carousel
         plugins={[plugin.current]}
-        className="w-full"
-        onMouseEnter={plugin.current.stop}
-        onMouseLeave={plugin.current.reset}
+        className="w-full [&>div]:p-1"
         opts={{
           align: "start",
+          loop: true,
         }}
       >
         <CarouselContent>

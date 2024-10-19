@@ -11,7 +11,7 @@ const assuranceData = [
   },
   {
     title: "Đa dạng dịch vụ",
-    desc: "Với 9 dịch vụ tiện ích, bTaskee sẵn sàng hỗ trợ mọi nhu cầu việc nhà của bạn.",
+    desc: "Với 9 dịch vụ tiện ích, Thuan High Clean sẵn sàng hỗ trợ mọi nhu cầu việc nhà của bạn.",
     badgePath: "./assets/images/badge-service.png",
   },
   {

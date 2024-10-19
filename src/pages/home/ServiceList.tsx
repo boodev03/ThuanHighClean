@@ -27,13 +27,15 @@ export default function ServiceList() {
               key={index}
               className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
             >
-              <div>
+              <div className="h-full flex flex-col">
                 <img className="block" src="/assets/images/service_1.jpg" />
                 <p className="mt-2 mb-4 text-xl font-bold">{service.name}</p>
-                <p className="text-[#383838] mb-4">{service.description}</p>
+                <p className="text-[#383838] mb-4 flex-1">
+                  {service.description}
+                </p>
                 <Link
                   to={`/service/${service.slug}`}
-                  className="text-[#555] hover:text-black transition-all duration-200 border-b border-[#ddd] hover:border-black"
+                  className="text-[#555] w-max hover:text-black transition-all duration-200 border-b border-[#ddd] hover:border-black"
                 >
                   Tìm hiểu thêm
                 </Link>

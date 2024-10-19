@@ -1,27 +1,21 @@
+import { services } from "@/data/services";
 import { ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
-const serviceData = [
-  { title: "Dịch vụ chuyển nhà", link: "/" },
-  { title: "Vệ sinh Sofa, rèm, nệm", link: "/" },
-  { title: "Giặt nệm tại nhà", link: "/" },
-  { title: "Giặt thảm", link: "/" },
-  { title: "Giặt rèm cửa", link: "/" },
-  { title: "Tổng vệ sinh", link: "/" },
-];
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="container mx-auto flex items-center gap-10 h-[70px]">
       <Link to="/">
-        <img className="block w-[100px]" src="/public/assets/images/logo.png" />
+        <img className="block w-[180px]" src="/assets/images/logo.png" />
       </Link>
 
       <nav className="flex-1">
         <ul className="flex items-center gap-8 *:py-3 *:text-secondary *:font-semibold *:transition-all *:duration-200 *:cursor-pointer">
-          <li className="hover:text-primary">Về bTaskee</li>
+          <li className="hover:text-primary">
+            <Link to="/introduce">Về THUAN HIGH Clean</Link>
+          </li>
           <li
             className="relative hover:text-primary flex items-center gap-1"
             onMouseEnter={() => setIsOpen(true)}
@@ -36,9 +30,9 @@ export default function Header() {
           ${isOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"}
         `}
             >
-              {serviceData.map((item, index) => (
+              {services.map((item, index) => (
                 <li
-                  key={item.title}
+                  key={item.slug}
                   className={`
               transition-all duration-300 ease-in-out
               ${
@@ -50,16 +44,18 @@ export default function Header() {
                   style={{ transitionDelay: `${index * 50}ms` }}
                 >
                   <Link
-                    to={`/${item.link}`}
+                    to={`/service/${item.slug}`}
                     className="block p-4 text-secondary font-medium hover:bg-gray-100 hover:text-primary transition-colors duration-200"
                   >
-                    {item.title}
+                    {item.name}
                   </Link>
                 </li>
               ))}
             </ul>
           </li>
-          <li className="hover:text-primary">Liên hệ</li>
+          <li className="hover:text-primary">
+            <Link to="/contact">Liên hệ</Link>
+          </li>
         </ul>
       </nav>
     </header>

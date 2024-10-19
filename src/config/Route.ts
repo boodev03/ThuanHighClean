@@ -1,3 +1,4 @@
+import DetailUsedService from "@/pages/detail-used-service";
 import AdminDashboard from "../pages/admin/dashboard";
 import ContactPage from "../pages/contact";
 import HomePage from "../pages/home";
@@ -27,5 +28,9 @@ export const publicRoutes = [
   {
     path: "/contact",
     component: ContactPage,
+  },
+  {
+    path: "/detail/:slug",
+    component: DetailUsedService,
   },
 ];
