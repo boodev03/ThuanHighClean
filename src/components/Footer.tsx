@@ -42,7 +42,10 @@ export default function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-5">
           <div className="*:text-sm *:font-medium *:leading-[1.5]">
-            <img src="./assets/images/logo.png" />
+            <Link to="/">
+              {" "}
+              <img src="/public/assets/images/logo.png" />
+            </Link>
             <p className="mt-5">
               Công Ty TNHH bTaskee 284/25/20 Lý Thường Kiệt, Phường 14, Quận 10,
               Tp.Hồ Chí Minh 72506

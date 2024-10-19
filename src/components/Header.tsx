@@ -15,9 +15,9 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="container mx-auto flex items-center gap-10 h-[70px]">
-      <div>
-        <img className="block w-[100px]" src="./assets/images/logo.png" />
-      </div>
+      <Link to="/">
+        <img className="block w-[100px]" src="/public/assets/images/logo.png" />
+      </Link>
 
       <nav className="flex-1">
         <ul className="flex items-center gap-8 *:py-3 *:text-secondary *:font-semibold *:transition-all *:duration-200 *:cursor-pointer">
