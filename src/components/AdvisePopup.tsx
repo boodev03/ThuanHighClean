@@ -21,10 +21,13 @@ const AdvisePopup = () => {
 
   useEffect(() => {
     if (openCount < 2) {
-      const timer = setTimeout(() => {
-        setShowPopup(true);
-        setOpenCount((prev) => prev + 1);
-      }, 30000);
+      const timer = setTimeout(
+        () => {
+          setShowPopup(true);
+          setOpenCount((prev) => prev + 1);
+        },
+        openCount === 1 ? 10000 : 15000
+      );
 
       return () => clearTimeout(timer);
     }
