@@ -10,7 +10,6 @@ export default function PriceTable() {
   return (
     <section className="container mx-auto mt-[60px]">
       {service?.priceTable.map((price, index) => {
-        console.log(service.priceTable);
         const tableData = service.priceTable[index].prices.map(
           (price): PriceTableData => ({
             serviceName: service.priceTable[index].serviceName,
@@ -23,7 +22,7 @@ export default function PriceTable() {
             key={index}
             className="[&_th:first-child]:w-2/5 [&_th:last-child]:w-2/5"
           >
-            <h2 className="text-[32px] text-primary font-bold mb-10">
+            <h2 className="text-[32px] text-primary font-bold mb-5 capitialize">
               {price.title}
             </h2>
             <p

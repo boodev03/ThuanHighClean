@@ -8,6 +8,9 @@ import PriceTable from "./PriceTable";
 import Note from "./Note";
 import Process from "./Process";
 import Advantages from "./Advantages";
+import AdditionContent from "./AdditonContent";
+import BeforePriceContent from "./BeforePriceContent";
+import Question from "./Question";
 
 export default function ServicePage() {
   const { slug } = useParams();
@@ -36,10 +39,13 @@ export default function ServicePage() {
       </div>
       <div>
         <IntroduceService />
+        <BeforePriceContent />
         <PriceTable />
         <Note />
         <Process />
+        <AdditionContent />
         <Advantages />
+        <Question />
         <p className="container mx-auto space-y-2 flex flex-col mt-10 text-secondary">
           <span>
             MỌI CHI TIẾT XIN LIÊN HỆ: <br />

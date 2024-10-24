@@ -19,6 +19,7 @@ interface Process {
   title: string;
   description: string;
   steps: ProcessStep[];
+  note?: string;
 }
 
 export interface Service {
@@ -34,4 +35,16 @@ export interface Service {
     content: string;
   };
   coverImage: string;
+  additionContent?: {
+    title: string;
+    content: string
+  }
+  beforePriceContent?: {
+    title: string;
+    content: string
+  }[]
+  questions?: {
+    title: string;
+    content: string
+  }
 }

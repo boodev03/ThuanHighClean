@@ -6,7 +6,7 @@ export default function Process() {
   const service = getServiceBySlug(slug as string);
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] text-primary font-bold mb-10">
+      <h2 className="text-[32px] text-primary font-bold mb-5">
         {service?.process.title}
       </h2>
       <p
@@ -15,9 +15,9 @@ export default function Process() {
       />
       <div>
         <ul>
-          {service?.process.steps.map((step) => (
-            <li key={step.step}>
-              <h3 className="text-[24px] font-bold text-black mt-8">
+          {service?.process.steps.map((step, index) => (
+            <li key={index} className="space-y-">
+              <h3 className="text-[24px] font-bold text-black mt-5">
                 {step.step}
               </h3>
               <p
@@ -27,6 +27,11 @@ export default function Process() {
             </li>
           ))}
         </ul>
+        
+        <p
+                dangerouslySetInnerHTML={{ __html: service?.process.note || "" }}
+                className="lg:text-shadow lg:text-secondary mt-5"
+              />
       </div>
     </section>
   );
