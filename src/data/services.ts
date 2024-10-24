@@ -2,259 +2,148 @@ import { Service } from "@/types/Service";
 
 export const services: Service[] = [
   {
-    name: "Vệ sinh công nghiệp",
-    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
-    description:
-      "Vệ sinh công nghiệp là dịch vụ làm sạch chuyên sâu cho các không gian như văn phòng, nhà xưởng, trung tâm thương mại... giúp loại bỏ bụi bẩn, vi khuẩn, và các vết bẩn cứng đầu, đảm bảo môi trường sạch sẽ, an toàn và nâng cao chất lượng không gian sống và làm việc.",
-    usageReasons: [
-      "Đặt lịch dễ dàng, nhanh chóng",
-      "Sử dụng thiết bị vệ sinh hiện đại, công nghệ tiên tiến",
-      "Chất tẩy rửa an toàn, thân thiện với môi trường",
-      "Quy trình vệ sinh chuẩn quốc tế, đảm bảo hiệu quả cao",
-      "Giá cả minh bạch, rõ ràng, không phát sinh chi phí ẩn",
-      "Đội ngũ nhân viên thân thiện, đào tạo bài bản và chuyên nghiệp",
-      "Ngoài dịch vụ vệ sinh công nghiệp, còn tích hợp các dịch vụ như dọn dẹp văn phòng định kỳ, giặt thảm, ghế sofa, và nhiều dịch vụ tiện ích khác cho doanh nghiệp.",
-    ],
-    actualResult: [
-      {
-        image: "/assets/images/service_1.jpg",
-        description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
-      },
-      {
-        image: "/assets/images/service_2.jpg",
-        description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
-      },
-    ],
-    processStage: [
-      {
-        title: "Vệ sinh công nghiệp",
-        step: [
-          "◆ Kiểm tra khu vực cần vệ sinh và xác nhận yêu cầu từ khách hàng.",
-          "◆ Phân loại khu vực cần làm sạch và lập kế hoạch vệ sinh.",
-          "◆ Sử dụng thiết bị chuyên dụng để làm sạch bụi bẩn, rác thải, và các vật cản.",
-          "◆ Dùng chất tẩy rửa phù hợp để vệ sinh các bề mặt, sàn nhà, cửa sổ, và các thiết bị.",
-          "◆ Phun khử trùng toàn bộ khu vực để loại bỏ vi khuẩn và mầm bệnh.",
-          "◆ Kiểm tra kỹ lưỡng sau khi vệ sinh để đảm bảo không còn bụi bẩn hay vết bẩn.",
-          "◆ Bàn giao và nghiệm thu với khách hàng.",
-        ],
-      },
-    ],
-
-    slug: "ve-sinh-cong-nghiep",
-  },
-  {
-    name: "Giặt nệm",
-    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
-    description:
-      "Giặt nệm giúp loại bỏ bụi bẩn, vi khuẩn, và các vết bẩn tích tụ lâu ngày, đảm bảo nệm luôn sạch sẽ, thơm tho, an toàn cho sức khỏe của gia đình bạn.",
-    usageReasons: [
-      "Đặt lịch giặt nhanh chóng, linh hoạt",
-      "Máy móc giặt hiện đại, công nghệ tiên tiến",
-      "Sử dụng dung dịch giặt an toàn, không gây kích ứng da",
-      "Quy trình giặt đảm bảo khử khuẩn, loại bỏ nấm mốc",
-      "Giá cả minh bạch, hợp lý",
-      "Nhân viên giặt chuyên nghiệp, tận tâm",
-      "Dịch vụ giặt nệm tại nhà, tiện lợi và tiết kiệm thời gian cho khách hàng",
-    ],
-    actualResult: [
-      {
-        image: "/assets/images/service_1.jpg",
-        description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
-      },
-      {
-        image: "/assets/images/service_2.jpg",
-        description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
-      },
-    ],
-    processStage: [
-      {
-        title: "Giặt nệm",
-        step: [
-          "◆ Kiểm tra tình trạng và ghi nhận yêu cầu từ khách hàng.",
-          "◆ Hút bụi và làm sạch bề mặt nệm.",
-          "◆ Phun dung dịch giặt chuyên dụng lên bề mặt nệm.",
-          "◆ Sử dụng máy chà nhẹ để loại bỏ vết bẩn cứng đầu.",
-          "◆ Dùng máy hút chuyên dụng để hút sạch dung dịch và chất bẩn.",
-          "◆ Phun xả nước để loại bỏ hoàn toàn dung dịch giặt và hút khô.",
-          "◆ Phun dung dịch khử khuẩn để diệt vi khuẩn và nấm mốc.",
-          "◆ Đặt lại nệm vào vị trí ban đầu và kiểm tra lần cuối.",
-          "◆ Bàn giao và nghiệm thu với khách hàng.",
-        ],
-      },
-    ],
-
-    slug: "giat-nem",
-  },
-  {
-    name: "Giặt rèm cửa",
-    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
-    description:
-      "Giặt rèm cửa giúp loại bỏ bụi bẩn, phấn hoa và các tác nhân gây dị ứng, mang lại không gian sống trong lành và thoáng mát.",
-    usageReasons: [
-      "Dịch vụ giặt rèm tận nơi, không cần tháo dỡ",
-      "Sử dụng dung dịch giặt chuyên dụng, không gây hại cho vải",
-      "Máy móc giặt hiện đại, không làm hỏng rèm",
-      "Quy trình giặt chuẩn quốc tế, đảm bảo an toàn sức khỏe",
-      "Đặt lịch giặt rèm linh hoạt, nhanh chóng",
-      "Nhân viên chuyên nghiệp, tận tình",
-      "Ngoài giặt rèm, dịch vụ còn bao gồm làm sạch rèm, bảo quản và kéo dài tuổi thọ của rèm",
-    ],
-    actualResult: [
-      {
-        image: "/assets/images/service_1.jpg",
-        description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
-      },
-      {
-        image: "/assets/images/service_2.jpg",
-        description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
-      },
-    ],
-    processStage: [
-      {
-        title: "Giặt rèm cửa",
-        step: [
-          "◆ Kiểm tra rèm cửa và ghi nhận yêu cầu của khách hàng.",
-          "◆ Sử dụng máy hút bụi để làm sạch bụi bám trên rèm.",
-          "◆ Phun dung dịch giặt chuyên dụng phù hợp với loại vải rèm.",
-          "◆ Sử dụng máy chà hoặc giặt nhẹ để loại bỏ các vết bẩn.",
-          "◆ Dùng máy hút để hút sạch dung dịch giặt và bụi bẩn.",
-          "◆ Phun xả nước để loại bỏ hoàn toàn hóa chất giặt và hút khô.",
-          "◆ Kiểm tra và là ủi nhẹ để đảm bảo rèm sạch và không nhăn.",
-          "◆ Đặt lại rèm về vị trí ban đầu.",
-          "◆ Bàn giao và nghiệm thu với khách hàng.",
-        ],
-      },
-    ],
-
-    slug: "giat-rem-cua",
-  },
-  {
-    name: "Tạp vụ văn phòng",
-    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
-    description:
-      "Dịch vụ tạp vụ văn phòng giúp đảm bảo không gian làm việc luôn sạch sẽ, ngăn nắp, nâng cao năng suất làm việc và hình ảnh chuyên nghiệp cho doanh nghiệp.",
-    usageReasons: [
-      "Dịch vụ tạp vụ định kỳ hoặc theo giờ, linh hoạt thời gian",
-      "Sử dụng dụng cụ và chất tẩy rửa an toàn, chất lượng",
-      "Đội ngũ nhân viên được đào tạo chuyên nghiệp, đáng tin cậy",
-      "Quy trình vệ sinh rõ ràng, hiệu quả",
-      "Giá cả cạnh tranh, phù hợp với mọi quy mô văn phòng",
-      "Cung cấp thêm các dịch vụ như giặt thảm, giặt ghế, lau kính, và nhiều tiện ích khác",
-      "Dịch vụ linh hoạt, dễ dàng điều chỉnh theo yêu cầu của khách hàng",
-    ],
-    actualResult: [
-      {
-        image: "/assets/images/service_1.jpg",
-        description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
-      },
-      {
-        image: "/assets/images/service_2.jpg",
-        description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
-      },
-    ],
-    processStage: [
-      {
-        title: "Tạp vụ văn phòng",
-        step: [
-          "◆ Kiểm tra khu vực cần vệ sinh và ghi nhận yêu cầu từ khách hàng.",
-          "◆ Thu gom và xử lý rác thải trong văn phòng.",
-          "◆ Làm sạch bàn làm việc, cửa sổ, sàn nhà, và các khu vực chung.",
-          "◆ Phun khử trùng các khu vực tiếp xúc thường xuyên như tay nắm cửa, bàn phím.",
-          "◆ Làm sạch nhà vệ sinh, bồn rửa tay và bổ sung các vật dụng cần thiết.",
-          "◆ Đảm bảo không gian văn phòng gọn gàng và ngăn nắp.",
-          "◆ Bàn giao và nghiệm thu với khách hàng.",
-        ],
-      },
-    ],
-
-    slug: "tap-vu-van-phong",
-  },
-  {
     name: "Giặt thảm văn phòng",
+    title:
+      "THUAN HIGH CLEAN – Dịch Vụ Giặt Thảm Văn Phòng Giá Tốt, Uy Tín Diệt Khuẩn 99%",
     coverImage: "/assets/images/service-detail/clean-sofa.jpg",
-    description:
-      "Giặt thảm văn phòng giúp loại bỏ bụi bẩn, vi khuẩn, và các vết bẩn cứng đầu, mang lại không gian làm việc sạch sẽ, chuyên nghiệp.",
-    usageReasons: [
-      "Sử dụng máy móc giặt thảm chuyên nghiệp, hiện đại",
-      "Dung dịch giặt an toàn, không gây hại cho sức khỏe",
-      "Quy trình giặt kỹ lưỡng, đảm bảo làm sạch sâu và khử khuẩn",
-      "Giá cả hợp lý, minh bạch",
-      "Đặt lịch giặt linh hoạt, tiện lợi cho khách hàng",
-      "Nhân viên chuyên nghiệp, có kinh nghiệm xử lý các loại thảm khác nhau",
-      "Ngoài giặt thảm, còn cung cấp dịch vụ bảo dưỡng và khử mùi thảm",
-    ],
+    slug: "ve-sinh-cong-nghiep",
+    advantages: {
+      title:
+        "Đơn vị cung cấp dịch vụ giặt thảm văn phòng Thuan High Clean có gì ?",
+      content: `
+<p>Không quá khó để tìm ra công ty cung cấp dịch vụ vệ sinh thảm văn phòng trên thị trường hiện nay. Và <b>Thuan High Clean</b> cũng nằm trong số đó. Chúng tôi không hẳn là đơn vị cung cấp dịch vụ vệ sinh thảm văn phòng tốt nhất. Nhưng Thuan High Clean cam kết sẽ là đơn vị đáng để bạn tin tưởng nhất. Với bề dày kinh nghiệm trong lĩnh vực cung cấp dịch vụ vệ sinh thảm văn phòng giá rẻ, chúng tôi không chỉ đem lại kết quả làm sạch sẽ nhất mà còn mang tới nhiều ưu điểm vượt trội như:</p>
+<ul class="pl-10 list-disc space-y-2">
+<li>Trang thiết bị chuyên dùng vệ sinh thảm văn phòng hiện đại nhất.</li>
+<li>Nhân viên nhiệt tình, trung thực. Có chuyên môn cao.</li>
+<li>Hóa chất có đầy đủ chứng nhận nguồn gốc xuất xứ.</li>
+<li>Quy trình vệ sinh thảm văn phòng tỉ mỉ, chi tiết.</li>
+<li>Giá cả công khai minh bạch và linh hoạt theo nhu cầu của khách hàng</li>
+<li>Đội ngũ nhân viên chăm sóc khách hàng thân thiện. Sẵn sàng giải đáp mọi thắc mắc của quý khách.</li>
+<li>Giá cả cạnh tranh nhất thị trường. Đảm bảo thực hiện đúng yêu cầu của khách hàng.</li>
+</ul>
+<p>Hiện tại, chúng tôi đang cung cấp dịch vụ giặt thảm văn phòng tại TPHCM, Bình Dương, Đồng Nai, Long An, rất hân hạnh đón tiếp khách hàng sử dụng dịch vụ nhà <b>Thuan High Clean</b>. Hơn thế nữa, <b>Thuan High Clean</b> chân thành cảm ơn quý khách hàng <b>Đã – Đang – Và Sẽ</b> sử dụng dịch vụ giặt thảm văn phòng do chúng tôi cung cấp.</p>
+`,
+    },
+    description: `<p>Thảm văn phòng là vật dụng không thế thiếu tại hầu hết các doanh nghiệp. Ngoài việc dùng để trang trí thảm còn giữ ấm, giảm ồn, chống trượt ngã. Tuy nhiên sau thời gian dài sử dụng thảm xuất hiện nhiều vết bẩn và…bốc mùi. Làm ảnh hưởng đến môi trường làm việc của nhân viên. Chính vì vậy dịch vụ giặt thảm văn phòng là một trong những dịch vụ được nhiều công ty quan tâm và sử dụng.</p>
+ <br /> <p>Nếu bạn đang có nhu cầu giặt thảm văn phòng cho công ty mà chưa tìm được đơn vị uy tính, phù hợp thì hãy thử tìm hiểu Thuan High Clean qua bài viết dưới đây nhé!</p`,
 
-    actualResult: [
+    priceTable: [
       {
-        image: "/assets/images/service_1.jpg",
-        description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
+        title: `BẢNG GIÁ DỊCH VỤ VỆ SINH THẢM VĂN PHÒNG TẠI TPHCM.`,
+
+        serviceName: "Giặt thảm văn phòng",
+        description: `<p><b>Chi phí giặt thảm văn phòng</b> luôn là vấn đề được nhiều khách hàng quan tâm khi có nhu cầu sử dụng. Việc biết trước mức giá có thể giúp người dùng biết được đơn vị cung cấp dịch vụ vệ sinh thảm văn phòng có phù hợp hay không. Nắm bắt được tâm lý của khách hàng hiện nay, <b>Thuan High Clean</b> luôn công khai và niêm yết với bảng báo giá giặt thảm văn phòng như sau:</p>`,
+        prices: [
+          {
+            size: "Dưới 50 M2",
+            price: "Trọn gói 700.000 vnđ",
+          },
+          {
+            size: "50 – 80 M2",
+            price: "Trọn gói 850.000 vnđ",
+          },
+          {
+            size: "80 – 100 M2",
+            price: "Trọn gói 1.000.000 vnđ",
+          },
+          {
+            size: "100 – 300 M2",
+            price: "8.000 – 10.000 vnđ/M2",
+          },
+          {
+            size: "300 – 600 M2",
+            price: "6.000 – 7.000 vnđ/M2",
+          },
+          {
+            size: "600 – 1000 M2",
+            price: "5.000 – 6.000 vnđ/M2",
+          },
+          {
+            size: "Trên 1000 M2",
+            price: "Liên hệ để được giá tốt nhất",
+          },
+        ],
       },
       {
-        image: "/assets/images/service_2.jpg",
-        description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
-      },
-    ],
-    processStage: [
-      {
-        title: "Giặt thảm văn phòng",
-        step: [
-          "◆ Kiểm tra thảm và xác nhận tình trạng từ khách hàng.",
-          "◆ Sử dụng máy hút bụi để loại bỏ bụi bẩn trên bề mặt thảm.",
-          "◆ Phun dung dịch giặt chuyên dụng phù hợp với loại thảm.",
-          "◆ Dùng máy chà sàn để làm sạch sâu và loại bỏ các vết bẩn cứng đầu.",
-          "◆ Dùng máy hút chuyên dụng để hút sạch dung dịch giặt và chất bẩn.",
-          "◆ Phun xả nước để làm sạch hoàn toàn hóa chất giặt và hút khô.",
-          "◆ Phun khử khuẩn để đảm bảo thảm không còn vi khuẩn và nấm mốc.",
-          "◆ Kiểm tra lại và đảm bảo thảm khô ráo.",
-          "◆ Bàn giao và nghiệm thu với khách hàng.",
+        description: `Bên cạnh dịch vụ <b>vệ sinh thảm văn phòng</b> chúng tôi còn cung cấp thêm dịch vụ <b>giặt ghế văn phòng</b>. Vì thế, đối với những khách hàng có mong muốn sử dụng kết hợp cả 2 dịch vụ, chúng tôi luôn đưa ra một mức giá tốt và ưu đãi hơn rất nhiều. Bạn có thể tham khảo bảng báo giá <b>giặt ghế văn phòng</b>.`,
+        title: "",
+        serviceName: "Giặt ghế văn phòng",
+        prices: [
+          {
+            size: "1 – 10 Cái",
+            price: "350.000 vnđ",
+          },
+          {
+            size: "10 – 50 Cái",
+            price: "30.000 vnđ/Cái",
+          },
+          {
+            size: "50 – 100 Cái",
+            price: "25.000 vnđ/Cái",
+          },
+          {
+            size: "100 – 250 Cái",
+            price: "20.000 vnđ/Cái",
+          },
+          {
+            size: "250 – 400 Cái",
+            price: "16.000 vnđ/Cái",
+          },
+          {
+            size: "400 – 600 Cái",
+            price: "14.000 vnđ/Cái",
+          },
+          {
+            size: "> 600 cái",
+            price: "12.000 vnđ/Cái",
+          },
         ],
       },
     ],
-
-    slug: "giat-tham-van-phong",
-  },
-  {
-    name: "Giặt ghế Sofa",
-    coverImage: "/assets/images/service-detail/clean-sofa.jpg",
-    description:
-      "Giặt ghế sofa giúp loại bỏ bụi bẩn, vi khuẩn, nấm mốc và các vết bẩn cứng đầu, mang lại vẻ đẹp và độ bền cho ghế sofa của bạn.",
-    usageReasons: [
-      "Đặt lịch giặt dễ dàng, nhanh chóng",
-      "Sử dụng công nghệ giặt khô và giặt ướt hiện đại",
-      "Dung dịch làm sạch an toàn, không làm phai màu vải",
-      "Quy trình giặt đảm bảo không làm hỏng cấu trúc của ghế",
-      "Giá cả minh bạch, không phát sinh chi phí",
-      "Nhân viên giặt chuyên nghiệp, tận tâm và kỹ lưỡng",
-      "Dịch vụ tại nhà, tiện lợi cho khách hàng, tiết kiệm thời gian",
-    ],
-    actualResult: [
-      {
-        image: "/assets/images/service_1.jpg",
-        description: "Hình ảnh Sofa trước và sau khi sử dụng dịch vụ",
-      },
-      {
-        image: "/assets/images/service_2.jpg",
-        description: "Hình ảnh Nệm trước và sau khi sử dụng dịch vụ",
-      },
-    ],
-    processStage: [
-      {
-        title: "Sofa",
-        step: [
-          "◆ Kiểm tra tình trạng, số lượng. Xác nhận đơn hàng.",
-          "◆ Hút bụi trên mặt ghế, các kẽ ghế bằng máy hút chuyên dụng.",
-          "◆ Phun dung dịch làm sạch chuyên dụng lên bề mặt ghế sofa.",
-          "◆ Sử dụng máy chà cầm tay chuyên dụng loại bỏ các vết ố bẩn bám trên mặt ghế.",
-          "◆ Dùng máy hút chuyên dụng hút sạch chất bẩn và dung dịch hóa chất bám trên bề mặt sau khi được làm sạch.",
-          "◆ Phun xả lại 1 lần nước để loại bỏ hoàn toàn dung dịch hóa chất tẩy. Hút khô.",
-          "◆ Phun khử khuẩn hơi nước nóng lên sofa với dung dịch Cloramin B.",
-          "◆ Phun thêm chất dưỡng ẩm bóng da đối với sản phẩm bằng da.",
-          "◆ Vệ sinh, lau khô sàn nhà và sắp xếp lại bàn ghế về vị trí cũ.",
-          "◆ Bàn giao và nghiệm thu với khách hàng.",
-        ],
-      },
-    ],
-    slug: "giat-ghe-sofa",
+    note: `<b class="mb-3 block">Lưu ý</b>
+              <ul class="pl-10 list-disc space-y-2">
+              <li>Bảng giá <b>vệ sinh thảm văn phòng và ghế văn phòng</b> trên đây chưa bao gồm thuế GTGT (VAT) 8%</li>
+              <li>Trường hợp nhân viên đến vệ sinh thảm và kiểm tra diện tích thảm nhỏ hoặc lớn hơn thực tế khách hàng cung cấp, chung tôi sẽ tính <b>giảm</b> hoặc <b>tăng</b> giá giặt thảm văn phòng tương đương như bảng báo giá trên.</li>
+              <li>Chi phí trên đã bao gồm chi phí đi lại, chi phí vận chuyển của trang thiết bị và nhân viên kỹ thuật. Đặc biệt, chúng tôi cam kết không phát sinh thêm bất cứ chi phí nào khác.</li>
+              </ul>
+`,
+    process: {
+      title: "QUY TRÌNH GIẶT THẢM CHUYÊN NGHIỆP CỦA THUAN HIGH CLEAN",
+      description:
+        "Các quy trình giặt thảm tùy mỗi công ty sẽ khác nhau và tùy vào hóa chất và thiết bị máy móc sử dụng. Tại Thuan High Clean, chúng tôi không ngừng cải tiến hoàn thiện để có được một quy trình vệ sinh thảm tại nhà chuyên nghiệp, chất lượng tốt nhất mang đến cho khách hàng.",
+      steps: [
+        {
+          step: "Bước 1: Chuẩn Bị",
+          description:
+            "<p>Dụng cụ và trang thiết bị như: máy giặt thảm phun hút, quạt thổi thảm, khăn lau, hóa chất giặt tẩy cho thảm,…</p>",
+        },
+        {
+          step: "Bước 2: Kiểm tra tình trạng thảm và hút bụi",
+          description:
+            "<p>Khảo sát thảm cần vệ sinh, để biết được tình trạng của thảm. Từ đó có thể đưa ra các phương pháp giặt, các loại máy và hóa chất phù hợp để có thể vệ sinh thảm hiệu quả.</p><p>Nếu khu vực có nhiều bàn ghế hay đồ đạt chúng tôi sẽ tiến hành dọn dẹp để có khoảng trống giặt.</p><p>Sử dụng máy hút bụi công nghiệp để hút bụi bẩn bám trên bề mặt thảm.</p>",
+        },
+        {
+          step: "Bước 3: Tiến hành giặt thảm",
+          description:
+            "<p>Trước tiên, pha hóa chất chuyên dụng và nước theo tỉ lệ phù hợp đổ vào máy chà thảm. Tiếp theo sử dụng máy chà thảm và dụng cụ chà thảm chuyên dụng để chà sạch các vết dơ trên bề mặt và các ngóc ngách của thảm.</p><p><b>Lưu ý:</b> Hóa chất giặt thảm của Thuan High Clean sử dụng đều thuộc loại hóa chất xanh và đạt chuẩn chất lượng an toàn với con người, thân thiện với môi trường và không gây kích ứng da.</p>",
+        },
+        {
+          step: "Bước 4: Hút sạch nước và chất bẩn trên thảm",
+          description:
+            "<p>Sau khi giặt bằng hóa chất giặt thảm xong, nhân viên sẽ sử dụng máy hút công nghiệp để hút sạch lượng hóa chất và nước dơ còn sót lại trên bề mặt thảm.</p><p>Đây chính là bước quan trọng và cần được làm sạch kỹ bởi nếu hút không sạch, lượng nước dơ và hóa chất sẽ còn bám lại trên thảm gây mùi hôi khó chịu và có thể ảnh hưởng đến chất lượng cuộc sống cũng như sức khỏe mọi người xung quanh.</p>",
+        },
+        {
+          step: "Bước 5: Sấy khô thảm, khử khuẩn và tạo mùi thơm",
+          description:
+            "<p>Để thảm được khô hoàn toàn, Thuan High Clean sẽ dử dụng máy thổi công nghiệp kết hợp dung dịch tạo mùi thơm, tinh dầu giúp thảm khô nhanh chóng và mang lại hương thêm dễ chịu.. Cùng lúc đó, các bạn nhân viên sẽ bắt đầu di chuyển đồ vật xung quanh thảm về vị trí cũ, trả lại nguyên vẹn vị trí ban đầu.</p>",
+        },
+        {
+          step: "Bước 6: Nghiệm thu",
+          description:
+            "<p>Khi thảm đã khô và văn phòng đã được trả lại hình dáng như ban đầu. Sau đó, khách hàng cùng nhân viên đi nghiệm thu lại kết quả sau khi vệ sinh thảm, và nhận phản hồi, góp ý của khách hàng để kịp thời hỗ trợ.</p><p>Cuối cùng, khi khách hàng đã hài lòng với dịch vụ giặt thảm văn phòng của chúng tôi, nhân viên kỹ thuật sẽ bắt đầu kí biên bản nghiệm thu và ra về. Khách hàng có thể lựa chọn lấy hóa đơn VAT hoặc không tùy vào nhu cầu.</p><p>Để đảm bảo được quyền lợi của khách hàng khi sử dụng dịch vụ. Chúng tôi sẽ tiến hành bảo hành dịch vụ cho khách hàng trong 24 giờ. Nếu có vấn đề gì về việc giặt thảm chúng tôi sẽ xử lý ngay và không bị mất phí.</p>",
+        },
+      ],
+    },
   },
 ];
 
