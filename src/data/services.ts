@@ -1,6 +1,6 @@
 import { Service } from "@/types/Service";
 
-let services: Service[] = [];
+export let services: Service[] = [];
 
 (async () => {
   const { default: serviceJson } = await import("../data/services.json");
