@@ -1,12 +1,5 @@
 import { Service } from "@/types/Service";
 
-export let services: Service[] = [];
-
-(async () => {
-  const { default: serviceJson } = await import("../data/services.json");
-  services = serviceJson.services;
-})();
-
-export const getServiceBySlug = (slug: string) => {
+export const getServiceBySlug = (services: Service[], slug: string) => {
   return services.find((service) => service.slug === slug);
 };

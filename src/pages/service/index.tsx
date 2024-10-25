@@ -2,19 +2,23 @@ import { Button } from "@/components/ui/button";
 import { getServiceBySlug } from "@/data/services";
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import "./styles.css";
-import IntroduceService from "./IntroduceService";
-import PriceTable from "./PriceTable";
-import Note from "./Note";
-import Process from "./Process";
-import Advantages from "./Advantages";
 import AdditionContent from "./AdditonContent";
+import Advantages from "./Advantages";
 import BeforePriceContent from "./BeforePriceContent";
+import IntroduceService from "./IntroduceService";
+import Note from "./Note";
+import PriceTable from "./PriceTable";
+import Process from "./Process";
 import Question from "./Question";
+import "./styles.css";
 
+import { Service } from "@/types/Service";
+import servicesJson from "../../data/services.json";
+
+const services: Service[] = servicesJson.services;
 export default function ServicePage() {
   const { slug } = useParams();
-  const service = getServiceBySlug(slug as string);
+  const service = getServiceBySlug(services, slug as string);
 
   useEffect(() => {
     document.title = `Thuan High Clean | ${service?.name}`;

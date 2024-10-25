@@ -1,9 +1,12 @@
 import { getServiceBySlug } from "@/data/services";
 import { useParams } from "react-router-dom";
+import servicesJson from "../../data/services.json";
+import { Service } from "@/types/Service";
 
+const services: Service[] = servicesJson.services;
 export default function Process() {
   const { slug } = useParams();
-  const service = getServiceBySlug(slug as string);
+  const service = getServiceBySlug(services, slug as string);
   return (
     <section className="container mx-auto mt-[60px]">
       <h2 className="text-[32px] text-primary font-bold mb-5">
@@ -27,11 +30,11 @@ export default function Process() {
             </li>
           ))}
         </ul>
-        
+
         <p
-                dangerouslySetInnerHTML={{ __html: service?.process.note || "" }}
-                className="lg:text-shadow lg:text-secondary mt-5"
-              />
+          dangerouslySetInnerHTML={{ __html: service?.process.note || "" }}
+          className="lg:text-shadow lg:text-secondary mt-5"
+        />
       </div>
     </section>
   );

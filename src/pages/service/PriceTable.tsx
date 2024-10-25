@@ -3,10 +3,13 @@ import { getServiceBySlug } from "@/data/services";
 import { useParams } from "react-router-dom";
 import { PriceTableColumns } from "./PriceTableColumn";
 import { PriceTableData } from "@/types/PriceTable";
+import servicesJson from "../../data/services.json";
+import { Service } from "@/types/Service";
 
+const services: Service[] = servicesJson.services;
 export default function PriceTable() {
   const { slug } = useParams();
-  const service = getServiceBySlug(slug as string);
+  const service = getServiceBySlug(services, slug as string);
   return (
     <section className="container mx-auto mt-[60px]">
       {service?.priceTable.map((price, index) => {

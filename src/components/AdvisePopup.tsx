@@ -4,12 +4,14 @@ import {
   DialogFooter,
   DialogHeader,
 } from "@/components/ui/dialog";
-import { services } from "@/data/services";
 import { DialogTitle } from "@radix-ui/react-dialog";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { ScrollArea } from "./ui/scroll-area";
+import servicesJson from "../data/services.json";
+import { Service } from "@/types/Service";
 
+const services: Service[] = servicesJson.services;
 const AdvisePopup = () => {
   const [showPopup, setShowPopup] = useState(false);
   const [openCount, setOpenCount] = useState(0);

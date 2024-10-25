@@ -1,7 +1,11 @@
-import { services } from "@/data/services";
 import { AlignJustify, ChevronDown, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+
+import servicesJson from "../data/services.json";
+import { Service } from "@/types/Service";
+
+const services: Service[] = servicesJson.services;
 
 export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);

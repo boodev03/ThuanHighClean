@@ -7,7 +7,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { services } from "@/data/services";
+import servicesJson from "../../data/services.json";
+import { Service } from "@/types/Service";
+
+const services: Service[] = servicesJson.services;
+
 export default function ServiceList() {
   return (
     <section className="container mx-auto mt-[60px]">
