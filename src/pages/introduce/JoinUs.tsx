@@ -20,7 +20,10 @@ export default function JoinUs() {
         </div>
 
         <div className="col-span-2 flex justify-end">
-          <img src="/assets/images/introduce/become.png" />
+          <img
+            src="/assets/images/introduce/become.png"
+            alt="Thuan High Clean"
+          />
         </div>
       </div>
     </section>

@@ -28,7 +28,11 @@ export default function ServiceList() {
               className="basis-full md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
             >
               <div className="h-full flex flex-col">
-                <img className="block" src="/assets/images/service_1.jpg" />
+                <img
+                  className="block"
+                  src="/assets/images/service_1.jpg"
+                  alt="Thuan High Clean"
+                />
                 <p className="mt-2 mb-4 text-xl font-bold">{service.name}</p>
                 <p className="text-[#383838] mb-4 flex-1">
                   {service.description}

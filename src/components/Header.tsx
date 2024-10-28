@@ -7,7 +7,11 @@ export default function Header() {
     <header className="relative">
       <section className="container mx-auto flex items-center gap-10 h-[70px] ">
         <Link to="/">
-          <img className="block w-[180px]" src="/assets/images/logo.png" />
+          <img
+            className="block w-[180px]"
+            src="/assets/images/logo.png"
+            alt="Thuan High Clean"
+          />
         </Link>
 
         <DesktopNavbar />

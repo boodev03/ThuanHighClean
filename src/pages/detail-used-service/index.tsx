@@ -27,7 +27,7 @@ export default function DetailUsedService() {
       </div>
 
       <div className="space-y-12 mt-12">
-        <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10 max-w-[50%]">
+        <h2 className="text-[32px] max-w-[70%] text-[#333] font-bold mb-10">
           Hình ảnh thực tế
         </h2>
         {actualResult.map((item, index) => (

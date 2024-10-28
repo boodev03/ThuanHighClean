@@ -31,12 +31,17 @@ export default function Assurance() {
       <img
         src="./assets/images/assurance.png"
         className="w-full object-cover"
+        alt="Thuan High Clean"
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
         {assuranceData.map((item) => (
           <div key={item.title}>
-            <img className="size-[78px]" src={item.badgePath} alt="" />
+            <img
+              className="size-[78px]"
+              src={item.badgePath}
+              alt="Thuan High Clean"
+            />
             <p className="mt-6 my-4 font-bold text-xl">{item.title}</p>
             <p>{item.desc}</p>
           </div>

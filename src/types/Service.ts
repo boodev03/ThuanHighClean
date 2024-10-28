@@ -20,7 +20,13 @@ interface Process {
   description: string;
   steps: ProcessStep[];
   note?: string;
-  addition?: string
+  addition?: string;
+}
+
+interface SEOProps {
+  title: string;
+  description: string;
+  keywords: string;
 }
 
 export interface Service {
@@ -38,15 +44,16 @@ export interface Service {
   coverImage: string;
   additionContent?: {
     title: string;
-    content: string
-  }
+    content: string;
+  };
   beforePriceContent?: {
     title: string;
-    content: string
-  }[]
+    content: string;
+  }[];
   questions?: {
     title: string;
-    content: string
-  }
-  additionalService?: Partial<Service>
+    content: string;
+  };
+  additionalService?: Partial<Service>;
+  seo?: SEOProps;
 }

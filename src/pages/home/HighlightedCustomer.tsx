@@ -12,6 +12,7 @@ export default function HighlightedCustomer() {
             className="relative border border-[#d9c1c1] [&_div]:hover:opacity-100"
           >
             <img
+              alt="Thương hiệu sử dụng"
               src={
                 index === 8
                   ? `./assets/images/highlighted-customer/brand_${

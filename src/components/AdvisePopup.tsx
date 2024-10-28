@@ -42,6 +42,7 @@ const AdvisePopup = () => {
             <img
               className="w-[180px] mx-auto mb-4"
               src="/assets/images/logo.png"
+              alt="Thuan High Clean"
             />
             <DialogTitle className="text-xl font-bold text-[#333]">
               Đăng ký tư vấn

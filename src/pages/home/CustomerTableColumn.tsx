@@ -59,7 +59,13 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
       />
     ),
     cell: ({ row }) => {
-      return <img className="size-[100px]" src={row.getValue("beforeImage")} />;
+      return (
+        <img
+          className="size-[100px]"
+          alt="Thuan High Clean sản phẩm trước khi sử dụng"
+          src={row.getValue("beforeImage")}
+        />
+      );
     },
   },
   {
@@ -68,7 +74,13 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
       <DataTableColumnHeader column={column} title="Hình ảnh sau khi sử dụng" />
     ),
     cell: ({ row }) => {
-      return <img className="size-[100px]" src={row.getValue("afterImage")} />;
+      return (
+        <img
+          className="size-[100px]"
+          alt="Thuan High Clean sản phẩm sau khi sử dụng"
+          src={row.getValue("afterImage")}
+        />
+      );
     },
   },
   {
