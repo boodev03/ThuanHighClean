@@ -5,8 +5,8 @@ export default function Advantages() {
   const { slug } = useParams();
   const service = getServiceBySlug(slug as string);
   return (
-    <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] text-primary font-bold mb-5">
+    <section className="container mx-auto">
+      <h2 className="text-[32px]  max-w-[70%] text-primary font-bold mb-5">
         {service?.advantages.title}
       </h2>
       <p

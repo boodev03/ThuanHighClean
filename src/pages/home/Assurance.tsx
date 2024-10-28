@@ -24,7 +24,7 @@ const assuranceData = [
 export default function Assurance() {
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] text-[#333] font-bold mb-10">
+      <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10">
         An tâm với lựa chọn của bạn
       </h2>
 

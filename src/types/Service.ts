@@ -3,7 +3,7 @@ interface PriceTableItem {
   price: string;
 }
 
-interface PriceTable {
+export interface PriceTable {
   title: string;
   description: string;
   serviceName: string;
@@ -20,6 +20,7 @@ interface Process {
   description: string;
   steps: ProcessStep[];
   note?: string;
+  addition?: string
 }
 
 export interface Service {
@@ -47,4 +48,5 @@ export interface Service {
     title: string;
     content: string
   }
+  additionalService?: Partial<Service>
 }

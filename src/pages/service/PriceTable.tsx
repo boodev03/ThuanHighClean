@@ -1,18 +1,19 @@
 import { DataTable } from "@/components/DataTable";
-import { getServiceBySlug } from "@/data/services";
-import { useParams } from "react-router-dom";
-import { PriceTableColumns } from "./PriceTableColumn";
 import { PriceTableData } from "@/types/PriceTable";
+import { PriceTable as PriceTableType } from "@/types/Service";
+import { PriceTableColumns } from "./PriceTableColumn";
 
-export default function PriceTable() {
-  const { slug } = useParams();
-  const service = getServiceBySlug(slug as string);
+interface IProps {
+  priceTable: PriceTableType[]
+}
+
+export default function PriceTable({priceTable}: IProps) {
   return (
-    <section className="container mx-auto mt-[60px]">
-      {service?.priceTable.map((price, index) => {
-        const tableData = service.priceTable[index].prices.map(
+    <section className="container mx-auto">
+      {priceTable.map((price, index) => {
+        const tableData = priceTable[index].prices.map(
           (price): PriceTableData => ({
-            serviceName: service.priceTable[index].serviceName,
+            serviceName: priceTable[index].serviceName,
             size: price.size,
             price: price.price,
           })
@@ -22,7 +23,7 @@ export default function PriceTable() {
             key={index}
             className="[&_th:first-child]:w-2/5 [&_th:last-child]:w-2/5"
           >
-            <h2 className="text-[32px] text-primary font-bold mb-5 capitialize">
+            <h2 className="text-[32px]  max-w-[70%] text-primary font-bold mb-5 capitialize">
               {price.title}
             </h2>
             <p

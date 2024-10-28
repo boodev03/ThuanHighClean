@@ -17,7 +17,7 @@ export default function DetailUsedService() {
   const customer = slug ? getCusomterUsedById(+slug as number) : undefined;
   return (
     <section className="container mx-auto my-[60px]">
-      <h2 className="text-[32px] font-bold text-[#333]">
+      <h2 className="text-[32px]  max-w-[70%] font-bold text-[#333]">
         Dịch vụ sử dụng: {customer?.serviceName}
       </h2>
       <div className="max-w-[50%] space-y-3 mt-3 *:font-medium">
@@ -27,7 +27,7 @@ export default function DetailUsedService() {
       </div>
 
       <div className="space-y-12 mt-12">
-        <h2 className="text-[32px] text-[#333] font-bold mb-10 max-w-[50%]">
+        <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10 max-w-[50%]">
           Hình ảnh thực tế
         </h2>
         {actualResult.map((item, index) => (

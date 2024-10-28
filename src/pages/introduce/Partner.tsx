@@ -20,7 +20,7 @@ export default function Partner() {
   return (
     <section className="bg-[#F5F5F5] mt-[50px] py-[50px]">
       <div className="container mx-auto">
-        <h2 className="text-[32px] mb-10 font-bold">
+        <h2 className="text-[32px]  max-w-[70%] mb-10 font-bold">
           Đối tác của{" "}
           <span className="text-primary font-semibold">Thuan High Clean</span>
         </h2>

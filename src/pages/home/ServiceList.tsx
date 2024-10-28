@@ -11,7 +11,7 @@ import { services } from "@/data/services";
 export default function ServiceList() {
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] text-[#333] font-bold mb-10">
+      <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10">
         Tất cả những tiện ích gia đình mà bạn cần
       </h2>
 

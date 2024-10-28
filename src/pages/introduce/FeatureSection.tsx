@@ -3,7 +3,7 @@ export default function FeatureSection() {
     <section className="container mx-auto pt-[50px]">
       <div className="flex items-center">
         <div className="flex-1">
-          <h2 className="mt-2 mb-4 text-[32px] font-bold">Tầm nhìn</h2>
+          <h2 className="mt-2 mb-4 text-[32px]  max-w-[70%] font-bold">Tầm nhìn</h2>
           <p className="max-w-[70%]">
             Không chỉ muốn giúp bạn chăm sóc gia đình từ những dịch vụ{" "}
             <span className="text-primary font-medium">
@@ -23,7 +23,7 @@ export default function FeatureSection() {
 
       <div className="flex items-center">
         <div className="flex-1">
-          <h2 className="mt-2 mb-4 text-[32px] font-bold">Sứ mệnh</h2>
+          <h2 className="mt-2 mb-4 text-[32px]  max-w-[70%] font-bold">Sứ mệnh</h2>
           <p className="max-w-[70%]">
             <span className="text-primary font-semibold">Thuan High Clean</span>{" "}
             ra đời với sứ mệnh đáp ứng nhu cầu giải quyết việc nhà của người dân

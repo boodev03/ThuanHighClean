@@ -23,7 +23,7 @@ export default function IntroducePage() {
       <section className="bg-[#F5F5F5] py-[60px]">
         <div className="container mx-auto ">
           <div className="max-w-[50%] space-y-5">
-            <h2 className="text-[32px] text-black font-bold">
+            <h2 className="text-[32px]  max-w-[70%] text-black font-bold">
               Chúng tôi là{" "}
               <span className="text-primary font-semibold">
                 Thuan High Clean

@@ -2,15 +2,16 @@ import { Button } from "@/components/ui/button";
 import { getServiceBySlug } from "@/data/services";
 import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import "./styles.css";
-import IntroduceService from "./IntroduceService";
-import PriceTable from "./PriceTable";
-import Note from "./Note";
-import Process from "./Process";
-import Advantages from "./Advantages";
 import AdditionContent from "./AdditonContent";
+import Advantages from "./Advantages";
 import BeforePriceContent from "./BeforePriceContent";
+import IntroduceService from "./IntroduceService";
+import Note from "./Note";
+import PriceTable from "./PriceTable";
+import Process from "./Process";
 import Question from "./Question";
+import "./styles.css";
+import AdditionService from "./AdditionService";
 
 export default function ServicePage() {
   const { slug } = useParams();
@@ -19,6 +20,9 @@ export default function ServicePage() {
   useEffect(() => {
     document.title = `Thuan High Clean | ${service?.name}`;
   }, [service]);
+
+  if (!service) return;
+
   return (
     <div className="mb-[60px]">
       <div className="relative">
@@ -29,23 +33,24 @@ export default function ServicePage() {
           }}
         />
         <div className="px-3 lg:px-0 lg:absolute lg:top-1/2 lg:max-w-[550px] lg:left-1/4 lg:-translate-x-1/4 lg:-translate-y-1/2">
-          <p className="lg:text-shadow lg:text-[#F5F5F5] text-[40px] font-bold my-4 lg:my-0">
+          <p className="lg:[text-shadow:_0_0_10px_rgba(0_0_0_/_0.5)] lg:text-[#F5F5F5] text-[40px] font-bold my-4 lg:my-0">
             {service?.name}
           </p>
-          <Button className="font-bold shadow-none">
+          <Button className="font-bold shadow-none mt-8">
             Trải nghiệm dịch vụ ngay !
           </Button>
         </div>
       </div>
-      <div>
-        <IntroduceService />
+      <div className="space-y-10 mt-[60px]">
+        <IntroduceService title={service?.title} description={service?.description} />
         <BeforePriceContent />
-        <PriceTable />
+        <PriceTable priceTable={service.priceTable}/>
         <Note />
         <Process />
-        <AdditionContent />
+        {service.additionContent && <AdditionContent additionContent={service.additionContent} />}
         <Advantages />
-        <Question />
+        <Question title={service.questions?.title || ''} content={service.questions?.content || ''}/>
+        <AdditionService />
         <p className="container mx-auto space-y-2 flex flex-col mt-10 text-secondary">
           <span>
             MỌI CHI TIẾT XIN LIÊN HỆ: <br />
