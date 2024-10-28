@@ -6,7 +6,7 @@ export default function JoinUs() {
       <div className="container mx-auto grid grid-cols-5">
         <div className="col-span-3 space-y-5">
           <h2 className="text-[32px]  max-w-[70%] font-bold text-white">
-            Hãy trải nghiệm dịch vụ tiện ích từ bTaskee ngay hôm nay!
+            Hãy trải nghiệm dịch vụ tiện ích từ Thuan High Clean ngay hôm nay!
           </h2>
           <p className="text-white">
             Tham gia cùng bTaskee để tận hưởng sự tiện lợi vượt trội trong cuộc

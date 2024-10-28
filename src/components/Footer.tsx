@@ -3,40 +3,19 @@ import { ZaloIcon } from "@/icons/ZaloIcon";
 import { cn } from "@/lib/utils";
 import { Link } from "react-router-dom";
 import "./styles.css";
+import { services } from "@/data/services";
 
 const companyData = [
   { title: "Giới thiệu", link: "/" },
-  { title: "bRewards", link: "/brewards" },
-  { title: "bPay", link: "/bpay" },
   { title: "Tuyển dụng", link: "/tuyen-dung" },
   { title: "Chi nhánh", link: "/chi-nhanh" },
   { title: "Kinh nghiệm hay", link: "/kinh-nghiem-hay" },
   { title: "Khuyến mãi", link: "/khuyen-mai" },
   { title: "Điều khoản sử dụng", link: "/dieu-khoan-su-dung" },
   { title: "Chính sách bảo mật", link: "/chinh-sach-bao-mat" },
-  { title: "Câu chuyện người giúp việc", link: "/cau-chuyen-nguoi-giup-viec" },
 ];
 
-const serviceData = [
-  { title: "Giúp việc nhà theo giờ", link: "/giup-viec-nha-theo-gio" },
-  { title: "Đi chợ", link: "/di-cho" },
-  { title: "Chăm sóc người bệnh", link: "/cham-soc-nguoi-benh" },
-  { title: "Chăm sóc người cao tuổi", link: "/cham-soc-nguoi-cao-tuoi" },
-  { title: "Tổng vệ sinh", link: "/tong-ve-sinh" },
-  { title: "Vệ sinh máy lạnh", link: "/ve-sinh-may-lanh" },
-  { title: "Nấu ăn gia đình", link: "/nau-an-gia-dinh" },
-  { title: "Giặt ủi", link: "/giat-ui" },
-  {
-    title: "Thuan High Clean cho doanh nghiệp",
-    link: "/btaskee-cho-doanh-nghiep",
-  },
-  { title: "Dọn dẹp buồng phòng", link: "/don-dep-buong-phong" },
-  { title: "Khử khuẩn", link: "/khu-khuan" },
-  { title: "Giặt ghế sofa", link: "/giat-ghe-sofa" },
-  { title: "Giặt rèm", link: "/giat-rem" },
-  { title: "Giặt nệm", link: "/giat-nem" },
-  { title: "Giặt thảm", link: "/giat-tham" },
-];
+const serviceData = services;
 
 export default function Footer() {
   return (
@@ -77,10 +56,10 @@ export default function Footer() {
               {serviceData.map((item) => (
                 <li key={item.title}>
                   <Link
-                    to={`/${item.link}`}
+                    to={`/${item.slug}`}
                     className="text-sm text-[#383838] font-medium hover:text-primary"
                   >
-                    {item.title}
+                    {item.name}
                   </Link>
                 </li>
               ))}

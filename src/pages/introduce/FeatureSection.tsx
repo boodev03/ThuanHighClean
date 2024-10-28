@@ -12,7 +12,7 @@ export default function FeatureSection() {
               dọn dẹp nhà, vệ sinh máy lạnh, nấu ăn gia đình, giặt ủi
             </span>
             ,...{" "}
-            <span className="text-primary font-semibold">Thuan High Clean</span>{" "}
+            <span className="text-primary font-medium">Thuan High Clean</span>{" "}
             đang nỗ lực trở thành công ty hàng đầu Việt Nam và vươn ra thị
             trường Đông Nam Á, cung cấp nhiều hơn những dịch vụ tiện ích gia
             đình tích hợp trên ứng dụng di động.
