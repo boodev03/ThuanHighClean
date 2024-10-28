@@ -113,7 +113,7 @@ const AdvisePopup = () => {
                 type="submit"
                 className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:text-white font-bold py-3 px-4 rounded-[8px] focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
               >
-                Gửi
+                Để lại lời nhắn
               </Button>
             </DialogFooter>
           </form>
