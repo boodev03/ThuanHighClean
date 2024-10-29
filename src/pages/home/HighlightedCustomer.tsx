@@ -1,7 +1,7 @@
 export default function HighlightedCustomer() {
   return (
     <section className="container mx-auto my-[60px]">
-      <h2 className="text-[32px] text-[#333] font-bold mb-10">
+      <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10">
         Những thương hiệu đang sử dụng
       </h2>
 
@@ -12,6 +12,7 @@ export default function HighlightedCustomer() {
             className="relative border border-[#d9c1c1] [&_div]:hover:opacity-100"
           >
             <img
+              alt="Thương hiệu sử dụng"
               src={
                 index === 8
                   ? `./assets/images/highlighted-customer/brand_${

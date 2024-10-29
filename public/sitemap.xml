@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <!-- 
+            Don't use <priority> or <changefreq> attributes. Those are typically ignored.
+            Make sure lastmod is always up to date.
+          -->
+        <loc>https://www.thuanhighclean.com/</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/introduce</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/service/giat-tham-van-phong</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/service/giat-ghe-van-phong</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/service/giat-ghe-sofa</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/service/giat-tham-trang-tri</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/service/giat-nem-tai-nha</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+    <url>
+        <loc>https://www.thuanhighclean.com/contact</loc>
+        <lastmod>2024-10-28</lastmod>
+    </url>
+</urlset>

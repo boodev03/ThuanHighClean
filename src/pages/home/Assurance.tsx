@@ -24,19 +24,24 @@ const assuranceData = [
 export default function Assurance() {
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] text-[#333] font-bold mb-10">
+      <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10">
         An tâm với lựa chọn của bạn
       </h2>
 
       <img
         src="./assets/images/assurance.png"
         className="w-full object-cover"
+        alt="Thuan High Clean"
       />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
         {assuranceData.map((item) => (
           <div key={item.title}>
-            <img className="size-[78px]" src={item.badgePath} alt="" />
+            <img
+              className="size-[78px]"
+              src={item.badgePath}
+              alt="Thuan High Clean"
+            />
             <p className="mt-6 my-4 font-bold text-xl">{item.title}</p>
             <p>{item.desc}</p>
           </div>

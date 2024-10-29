@@ -28,16 +28,19 @@ const data = [
 export default function CoreValue() {
   return (
     <section className="container mx-auto pt-[50px]">
-      <h2 className="text-[32px] text-black font-bold mb-5">Giá trị cốt lõi</h2>
+      <h2 className="text-[32px]  max-w-[70%] text-black font-bold mb-5">
+        Giá trị cốt lõi
+      </h2>
       <img
         src="https://www.btaskee.com/wp-content/uploads/2020/11/gia-tri-cot-loi-cua-btaskee.png"
         className="w-full object-cover"
+        alt="Thuan High Clean"
       />
 
       <div className="grid grid-cols-4 pt-11 gap-3">
         {data.map((item, index) => (
           <div key={index} className="space-y-5">
-            <img src={item.icon} className="w-[26px]" />
+            <img alt="Thuan High Clean" src={item.icon} className="w-[26px]" />
 
             <h3 className="text-xl text-black font-bold">{item.title}</h3>
             <p>{item.description}</p>

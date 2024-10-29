@@ -1,6 +1,6 @@
 ## Structure
 
-    ├── src             # Chứa các folder là các route của ứng dụng. (Vd: (auth)/sign-in/index.ts -> components: Chứa các components dùng chung cho Project
+    ├── src           
       ├── assets # Chứa các source như icons, fonts, images
           ├── fonts
           ├── icons  

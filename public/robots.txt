@@ -1,0 +1,6 @@
+# Robots.txt file for https://www.thuanhighclean.com/
+
+User-agent: *  
+Allow: /  
+
+Sitemap: https://www.thuanhighclean.com/sitemap.xml
