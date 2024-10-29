@@ -2,6 +2,8 @@
   "services": [
     {
       "name": "Giặt thảm văn phòng",
+      "homeDescription": "Vệ sinh thảm văn phòng thường xuyên, giúp loại bỏ bụi bẩn, vi khuẩn và mùi hôi, mang lại không gian làm việc sạch sẽ, thoải mái.",
+      "thumb": "/assets/images/giat-tham-van-phong/thumb.jpg",
       "seo": {
         "title": "Dịch Vụ Giặt Thảm Văn Phòng Giá Tốt, Uy Tín Tại THUAN HIGH CLEAN",
         "description": "Khám phá dịch vụ giặt thảm văn phòng chuyên nghiệp tại THUAN HIGH CLEAN. Chúng tôi cung cấp dịch vụ giặt thảm an toàn, hiệu quả với hóa chất đạt chuẩn, giá cả cạnh tranh. Đặt lịch ngay hôm nay để cải thiện môi trường làm việc của bạn!",
@@ -121,6 +123,8 @@
     },
     {
       "name": "Giặt ghế văn phòng",
+      "homeDescription": "Thuan High cung cấp dịch vụ giặt ghế văn phòng tận nơi, giúp loại bỏ bụi bẩn, vi khuẩn và mùi hôi, mang lại sự thoải mái và sạch sẽ cho môi trường làm việc.",
+      "thumb": "/assets/images/giat-ghe-van-phong/thumb.jpg",
       "seo": {
         "title": "Dịch Vụ Vệ Sinh Ghế Văn Phòng Giá Rẻ Tại TPHCM - Thuan High Clean",
         "description": "Thuan High Clean cung cấp dịch vụ vệ sinh ghế văn phòng chuyên nghiệp với giá rẻ tại TPHCM. Đội ngũ kỹ thuật viên giàu kinh nghiệm, trang thiết bị hiện đại, và quy trình vệ sinh an toàn. Đảm bảo mang lại môi trường làm việc sạch sẽ và an toàn cho nhân viên.",
@@ -209,6 +213,8 @@
     },
     {
       "name": "Giặt ghế Sofa",
+      "homeDescription": "Làm sạch sofa đòi hỏi kỹ năng và chất làm sạch phù hợp. Nhân viên vệ sinh của chúng tôi được đào tạo về phương pháp làm sạch hiệu quả nhất để mang lại cho bạn sự hài lòng cao nhất.",
+      "thumb": "/assets/images/ve-sinh-sofa/thumb.jpg",
       "seo": {
         "title": "Dịch vụ giặt Ghế Sofa tại nhà giá rẻ, sạch sẽ, cam kết sạch đến 99%",
         "description": "Ghế sofa không chỉ là một món đồ nội thất, mà còn mang lại nhiều tác dụng hữu ích. Dịch vụ giặt ghế Sofa tại Thuan High Clean giúp bạn tiết kiệm thời gian và công sức, bảo vệ ghế sofa khỏi hư hỏng, và cam kết sạch sẽ đến 99%. Hãy trải nghiệm dịch vụ giặt ghế sofa chuyên nghiệp của chúng tôi ngay hôm nay!",
@@ -307,6 +313,8 @@
     },
     {
       "name": "Giặt thảm trang trí",
+      "homeDescription": "Vệ sinh thảm giúp giữ gìn không gian nhà bạn luôn sạch sẽ và sang trọng, cũng như luôn giữ nét độc đáo riêng.",
+      "thumb": "/assets/images/giat-tham-trang-tri/thumb.jpg",
       "seo": {
         "title": "Dịch vụ giặt thảm trang trí tại nhà chuyên nghiệp | THUAN HIGH CLEAN",
         "description": "THUAN HIGH CLEAN cung cấp dịch vụ giặt thảm trang trí tại nhà chuyên nghiệp, giúp nâng cao tính thẩm mỹ và bảo vệ sức khỏe. Đội ngũ nhân viên chuyên nghiệp, quy trình hiện đại, cam kết sạch sẽ và hiệu quả.",

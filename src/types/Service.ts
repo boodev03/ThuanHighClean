@@ -56,4 +56,6 @@ export interface Service {
   };
   additionalService?: Partial<Service>;
   seo?: SEOProps;
+  homeDescription: string;
+  thumb: string;
 }

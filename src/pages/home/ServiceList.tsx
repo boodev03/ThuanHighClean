@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { services } from "@/data/services";
+
 export default function ServiceList() {
   return (
     <section className="container mx-auto mt-[60px]">
