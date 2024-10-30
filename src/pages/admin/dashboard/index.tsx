@@ -81,11 +81,11 @@ export default function AdminDashboard() {
 
   return (
     <section className="items-center justify-center px-4 py-8 mx-auto">
-      <button className="flex items-center gap-2" onClick={() => navigate("/")}>
+      <button className="flex items-center gap-2 ml-4" onClick={() => navigate("/")}>
+        <img className="h-16 rounded-full" src="/assets/images/logo.png" alt="logo" />
         <p className="text-2xl font-bold text-gray-900 dark:text-white ml-4">
           Trang quản trị
         </p>
-        <img className="h-16" src="/assets/images/logo.png" alt="logo" />
       </button>
       <Box sx={{ width: "100%" }}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>

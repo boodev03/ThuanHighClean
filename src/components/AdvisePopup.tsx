@@ -39,11 +39,14 @@ const AdvisePopup = () => {
       <DialogContent className="bg-white !rounded-[12px] p-0 shadow-lg">
         <ScrollArea className="w-full max-h-[90vh] py-6">
           <DialogHeader className="px-6 pb-6">
-            <img
-              className="w-[180px] mx-auto mb-4"
-              src="/assets/images/logo.png"
-              alt="Thuan High Clean"
-            />
+            <div className="flex flex-row justify-center items-center">
+              <img
+                className="w-[100px] mb-4 rounded-full"
+                src="/assets/images/logo.png"
+                alt="Thuan High Clean"
+              />
+              <p className="mx-4 font-bold text-lg text-primary"> THUAN HIGH CLEAN</p>
+            </div>
             <DialogTitle className="text-xl font-bold text-[#333]">
               Đăng ký tư vấn
             </DialogTitle>

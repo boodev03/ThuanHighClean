@@ -3,6 +3,7 @@ import CoreValue from "./CoreValue";
 import FeatureSection from "./FeatureSection";
 import JoinUs from "./JoinUs";
 import Partner from "./Partner";
+import Commitment from "./Commitment";
 
 export default function IntroducePage() {
   useEffect(() => {
@@ -22,22 +23,39 @@ export default function IntroducePage() {
 
       <section className="bg-[#F5F5F5] py-[60px]">
         <div className="container mx-auto ">
-          <div className="max-w-[50%] space-y-5">
+          <div className="max-w-[50%] space-y-5 mb-4">
             <h2 className="text-[32px]  max-w-[70%] text-black font-bold">
-              Chúng tôi là{" "}
-              <span className="text-primary font-bold">THUAN HIGH CLEAN</span>
+              Chúng tôi là{"\n"}
+              <span className="block text-primary font-bold text-[32px]">THUAN HIGH CLEAN</span>
             </h2>
-            <p>
+            <p className="text-justify">
               <span className="text-primary font-semibold">
                 Thuan High Clean
               </span>{" "}
-              là doanh nghiệp tiên phong trong việc ứng dụng công nghệ vào ngành
-              giúp việc nhà ở Việt Nam. Chúng tôi cung cấp đa dịch vụ tiện ích
-              như: dọn dẹp nhà, vệ sinh máy lạnh, đi chợ, … tại Đông Nam Á.
-              Thông qua ứng dụng đặt lịch dành cho khách hàng Thuan High Clean
-              và ứng dụng nhận việc của cộng tác viên Thuan High Clean Partner,
-              khách hàng và cộng tác viên có thể chủ động đăng và nhận việc trực
-              tiếp trên ứng dụng.
+              là doanh nghiệp cung cấp các giải pháp Dịch vụ vệ sinh cho gia đình, chung cư, văn phòng... 
+              Chúng tôi cung cấp đa dịch vụ tiện ích như: dọn dẹp nhà, vệ sinh thảm, vệ sinh sofa, vệ sinh nệm, … 
+              Các gói dịch vụ vệ sinh mà Thuan High Clean mang lại cam kết có mức giá tốt nhất thị trường, 
+              an toàn cho người sử dụng phù hợp theo từng nhu cầu khách hàng khác nhau.
+            </p>
+          </div>
+          <div className="max-w-[50%] space-y-5 mb-4">
+            <h2 className="text-[32px]  max-w-[70%] text-black font-bold">
+              Khu vực hoạt động
+            </h2>
+            <p className="text-justify">
+            Hiện tại, Thuan High Clean cung cấp các dịch vụ tiện ích cho nhiều hộ gia đình & 
+            Công Ty ở khắp 5 tỉnh thành tại Việt Nam: TP.HCM, Long An, Bình Dương, Đồng Nai và Bà Rịa Vũng Tàu
+            </p>
+          </div>
+          <div className="max-w-[50%] space-y-5 mb-4">
+            <h2 className="text-[31px]  max-w-[70%] text-black font-bold">
+              Phát triển nhiều hơn nữa
+            </h2>
+            <p className="text-justify">
+              Với mục tiêu mang đến cho khách hàng những trải nghiệm dịch vụ tốt nhất, 
+              <span className="text-primary font-semibold">
+                Thuan High Clean
+              </span> không ngừng lắng nghe và cải thiện chất lượng dịch vụ.
             </p>
           </div>
         </div>
@@ -45,8 +63,10 @@ export default function IntroducePage() {
 
       <FeatureSection />
       <CoreValue />
+      <Commitment />
       <Partner />
       <JoinUs />
+
     </div>
   );
 }

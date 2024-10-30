@@ -178,18 +178,18 @@ export default function formAddNewOrderAdmin() {
           </div>
           <div className="mb-3">
             <label
-              htmlFor="mainAfterImg"
+              htmlFor="BeforeImgs"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               Ảnh trước làm khác(MAX 2 tấm):
             </label>
             <input
-              id="mainAfterImg"
+              id="BeforeImgs"
               type="file"
-              onChange={(e) => handleFileChange(e, "mainAfterImg")}
+              multiple
+              onChange={(e) => handleFileChange(e, "beforeImgs")}
               required
               className="block w-full text-sm text-gray-500"
-              multiple
             />
           </div>
         </div>
@@ -197,15 +197,15 @@ export default function formAddNewOrderAdmin() {
         <div className="columns-2">
           <div className="mb-3">
             <label
-              htmlFor="beforeImgs"
+              htmlFor="mainAfterImg"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               Ảnh chính sau làm:
             </label>
             <input
-              id="beforeImgs"
+              id="mainAfterImg"
               type="file"
-              onChange={(e) => handleFileChange(e, "beforeImgs")}
+              onChange={(e) => handleFileChange(e, "mainAfterImg")}
               className="block w-full text-sm text-gray-500"
               required
             />
