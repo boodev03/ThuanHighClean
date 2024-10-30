@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
@@ -41,7 +42,7 @@ export default function DeleteOrderAdmin({
   const handleDeleteOrder = (id: string) => {
     axiosClient
       .delete(`/api/order/${id}`)
-      .then((response) => {
+      .then(() => {
         onItemDeleted();
       })
       .catch((error) => {
@@ -54,15 +55,15 @@ export default function DeleteOrderAdmin({
         <TableHead>
           <TableRow>
             <StyledTableCell align="center">STT</StyledTableCell>
-            <StyledTableCell >Tên khách hàng</StyledTableCell>
-            <StyledTableCell >Số điện thoại</StyledTableCell>
-            <StyledTableCell >Dịch vụ sử dụng</StyledTableCell>
-            <StyledTableCell >Ảnh chính trước làm</StyledTableCell>
-            <StyledTableCell >Ảnh trước làm khác</StyledTableCell>
-            <StyledTableCell >Ảnh sau trước làm</StyledTableCell>
-            <StyledTableCell >Ảnh sau làm khác</StyledTableCell>
-            <StyledTableCell >Thời gian đặt</StyledTableCell>
-            <StyledTableCell >Xóa</StyledTableCell>
+            <StyledTableCell>Tên khách hàng</StyledTableCell>
+            <StyledTableCell>Số điện thoại</StyledTableCell>
+            <StyledTableCell>Dịch vụ sử dụng</StyledTableCell>
+            <StyledTableCell>Ảnh chính trước làm</StyledTableCell>
+            <StyledTableCell>Ảnh trước làm khác</StyledTableCell>
+            <StyledTableCell>Ảnh sau trước làm</StyledTableCell>
+            <StyledTableCell>Ảnh sau làm khác</StyledTableCell>
+            <StyledTableCell>Thời gian đặt</StyledTableCell>
+            <StyledTableCell>Xóa</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
