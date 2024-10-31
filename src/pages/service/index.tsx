@@ -49,11 +49,13 @@ export default function ServicePage() {
           <IntroduceService
             title={service?.title}
             description={service?.description}
+            descriptionImage={service.descriptionImage}
+            additionImages={service.additionImages}
           />
           <BeforePriceContent />
           <PriceTable priceTable={service.priceTable} />
           <Note />
-          <Process />
+          <Process process={service.process} />
           {service.additionContent && (
             <AdditionContent additionContent={service.additionContent} />
           )}

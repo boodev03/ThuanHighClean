@@ -17,7 +17,7 @@ export default function DefaultLayout() {
       <Outlet />
       <Footer />
       <ContactOptions />
-      {/* <AdvisePopup /> */}
+      <AdvisePopup />
     </>
   );
 }
