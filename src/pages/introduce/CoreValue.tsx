@@ -3,25 +3,25 @@ const data = [
     icon: "/assets/images/introduce/quality.png",
     title: "Chất lượng",
     description:
-      "Đảm bảo chất lượng dịch vụ cho khách hàng. Tất cả các bTasker của chúng tôi đều phải có kinh nghiệm và trải qua chương trình đào tạo, kiểm tra, thử việc nghiêm ngặt.",
+    "Đảm bảo chất lượng dịch vụ cho khách hàng. Tất cả các Nhân Viên của chúng tôi đều phải có kinh nghiệm và trải qua chương trình đào tạo, kiểm tra, thử việc nghiêm ngặt."
   },
   {
     icon: "/assets/images/introduce/favorite.png",
     title: "Tậm tâm",
     description:
-      "Luôn đặt mình vào vị trí của khách hàng để mang lại hiệu quả công việc tốt nhất.",
+    "Luôn đặt mình vào vị trí của khách hàng để mang lại hiệu quả công việc tốt nhất. Thuan High Clean sẽ mang lại giá trị mà khách hàng sẽ mong muốn sử dụng lâu dài"
   },
   {
     icon: "/assets/images/introduce/fast.png",
     title: "Tiện lợi",
     description:
-      "Ứng dụng nhanh chóng tiện lợi để đặt và nhận việc mọi lúc mọi nơi. Chỉ mất 60 giây để đăng việc, giờ làm việc vô cùng linh hoạt.",
+    "Đặt lịch nhanh chóng tiện lợi và nhận việc mọi lúc mọi nơi. Quý khách hàng có thể để lại thông tin trên hộp thoai hoặc có thể liên hệ trực tiếp qua zalo, message, số điện thoại"
   },
   {
     icon: "/assets/images/introduce/growth.png",
     title: "Cải tiến",
     description:
-      "Chúng tôi luôn lắng nghe để không ngừng cải tiến công nghệ, đổi mới chính sách, vì trải nghiệm trọn vẹn của người dùng là đích đến của chúng tôi.",
+    "Chúng tôi luôn lắng nghe để không ngừng cải tiến công nghệ, đổi mới chính sách, vì trải nghiệm trọn vẹn của người dùng là đích đến của chúng tôi",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function CoreValue() {
             <img alt="Thuan High Clean" src={item.icon} className="w-[26px]" />
 
             <h3 className="text-xl text-black font-bold">{item.title}</h3>
-            <p>{item.description}</p>
+            <p className="text-justify">{item.description}</p>
           </div>
         ))}
       </div>
