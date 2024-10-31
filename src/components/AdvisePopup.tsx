@@ -45,7 +45,10 @@ const AdvisePopup = () => {
                 src="/assets/images/logo.png"
                 alt="Thuan High Clean"
               />
-              <p className="mx-4 font-bold text-lg text-primary"> THUAN HIGH CLEAN</p>
+              <p className="mx-4 font-bold text-lg text-primary">
+                {" "}
+                THUAN HIGH CLEAN
+              </p>
             </div>
             <DialogTitle className="text-xl font-bold text-[#333]">
               Đăng ký tư vấn
@@ -94,7 +97,9 @@ const AdvisePopup = () => {
                   Chọn dịch vụ
                 </option>
                 {services.map((service) => (
-                  <option value={service.slug}>{service.name}</option>
+                  <option key={service.name} value={service.slug}>
+                    {service.name}
+                  </option>
                 ))}
               </select>
             </div>
