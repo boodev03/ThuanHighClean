@@ -52,7 +52,7 @@ export default function TableMessagesAdmin({messages, onItemDeleted}: TableMessa
             <TableRow>
                 <StyledTableCell align="center">STT</StyledTableCell>
                 <StyledTableCell align="right">Thời gian</StyledTableCell>
-                <StyledTableCell align="right">Tên khách hàng</StyledTableCell>
+                <StyledTableCell >Tên khách hàng</StyledTableCell>
                 <StyledTableCell align="right">Số điện thoại</StyledTableCell>
                 <StyledTableCell align="right">Dịch vụ cần tư vấn</StyledTableCell>
                 <StyledTableCell align="right">Lời nhắn</StyledTableCell>
