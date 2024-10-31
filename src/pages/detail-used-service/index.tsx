@@ -30,8 +30,7 @@ export default function DetailUsedService() {
       }
     };
     fetData();
-    console.log("Slug", slug);
-  }, []);
+  }, [slug]);
 
   return (
     <section className="container mx-auto my-[60px]">
@@ -63,7 +62,7 @@ export default function DetailUsedService() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="rounded p-4 ">
-            <p className="text-xl text-center">Hình ảnh trước khi làm</p>
+            <p className="text-xl text-center mb-3">Hình ảnh trước khi làm</p>
             <img
               src={order?.mainBeforeImg}
               alt="Hình ảnh trước khi làm"
@@ -78,7 +77,7 @@ export default function DetailUsedService() {
             ))}
           </div>
           <div className="rounded p-4 ">
-            <p className="text-xl text-center">Hình ảnh sau khi làm</p>
+            <p className="text-xl text-center mb-3">Hình ảnh sau khi làm</p>
             <img
               src={order?.mainAfterImg}
               alt="Hình ảnh trước khi làm"

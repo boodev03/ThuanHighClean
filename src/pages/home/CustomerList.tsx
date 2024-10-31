@@ -7,9 +7,6 @@ export default function CustomerList() {
   const [orders, setOrders] = useState([]);
   const fetchOrders = () => {
     axiosClient.get("/api/order").then((response) => {
-      if (response.data?.message === "Token is invalid") {
-        // navigate("/admin/login");
-      }
       setOrders(response.data);
     });
   };
