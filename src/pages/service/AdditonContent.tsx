@@ -1,15 +1,18 @@
-
 interface IProps {
   additionContent: {
     title: string;
     content: string;
-  }
+    beforeImages?: string[];
+  };
 }
 
-export default function AdditionContent({additionContent}: IProps) {
+export default function AdditionContent({ additionContent }: IProps) {
   return (
     <section className="container mx-auto">
-      <h2 className="text-[32px]  max-w-[70%] text-primary font-bold mb-5">
+      {additionContent.beforeImages?.map((image) => (
+        <img key={image} src={image} alt={image} />
+      ))}
+      <h2 className="text-[32px] max-w-[70%] text-primary font-bold mb-5">
         {additionContent?.title}
       </h2>
 
