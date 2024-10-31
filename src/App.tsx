@@ -3,6 +3,7 @@ import DefaultLayout from "./components/DefaultLayout";
 import { privateRoutes, publicRoutes } from "./config/Route";
 import { HelmetProvider } from "react-helmet-async";
 import "./index.css";
+import { Toaster } from "./components/ui/sonner";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </HelmetProvider>
+      <Toaster />
     </main>
   );
 }
