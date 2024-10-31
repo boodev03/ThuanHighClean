@@ -1,4 +1,3 @@
-import { getCusomterUsedById } from "@/data/customerUsed";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axiosClient from "@/api/axiosClient";
