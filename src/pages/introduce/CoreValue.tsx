@@ -31,11 +31,6 @@ export default function CoreValue() {
       <h2 className="text-[32px] max-w-[70%] text-black font-bold mb-5">
         Giá trị cốt lõi
       </h2>
-      <img
-        src="https://www.btaskee.com/wp-content/uploads/2020/11/gia-tri-cot-loi-cua-btaskee.png"
-        className="w-full object-cover"
-        alt="Thuan High Clean"
-      />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-11 gap-3">
         {data.map((item, index) => (
