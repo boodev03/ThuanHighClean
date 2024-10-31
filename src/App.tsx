@@ -4,6 +4,7 @@ import { privateRoutes, publicRoutes } from "./config/Route";
 import { HelmetProvider } from "react-helmet-async";
 import "./index.css";
 import { Toaster } from "./components/ui/sonner";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                   />
                 );
               })}
+              <Route element={<NotFound />} path="*" />
             </Route>
           </Routes>
           <Routes>
