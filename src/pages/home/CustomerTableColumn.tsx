@@ -8,11 +8,22 @@ import { Link } from "react-router-dom";
 
 export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
   {
-    accessorKey: "name",
+    accessorKey: "nameOfCustomer",
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="Tên khách hàng" />
     ),
-    cell: ({ row }) => <div className="w-[140px]">{row.getValue("name")}</div>,
+    cell: ({ row }) => (
+      <div className="w-[140px]">{row.getValue("nameOfCustomer")}</div>
+    ),
+    enableSorting: false,
+    enableHiding: false,
+  },
+  {
+    accessorKey: "phone",
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title="Số điện thoại" />
+    ),
+    cell: ({ row }) => <div className="w-[140px]">{row.getValue("phone")}</div>,
     enableSorting: false,
     enableHiding: false,
   },
@@ -32,7 +43,7 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
     },
   },
   {
-    accessorKey: "serviceName",
+    accessorKey: "service",
     header: ({ column }) => (
       <DataTableColumnHeader
         column={column}
@@ -44,14 +55,14 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
       return (
         <div className="flex space-x-2">
           <span className="max-w-[500px] truncate font-medium">
-            {row.getValue("serviceName")}
+            {row.getValue("service")}
           </span>
         </div>
       );
     },
   },
   {
-    accessorKey: "beforeImage",
+    accessorKey: "mainBeforeImg",
     header: ({ column }) => (
       <DataTableColumnHeader
         column={column}
@@ -63,13 +74,13 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
         <img
           className="size-[100px]"
           alt="Thuan High Clean sản phẩm trước khi sử dụng"
-          src={row.getValue("beforeImage")}
+          src={row.getValue("mainBeforeImg")}
         />
       );
     },
   },
   {
-    accessorKey: "afterImage",
+    accessorKey: "mainAfterImg",
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="Hình ảnh sau khi sử dụng" />
     ),
@@ -78,7 +89,7 @@ export const CustomerTableColumns: ColumnDef<CustomerUsed>[] = [
         <img
           className="size-[100px]"
           alt="Thuan High Clean sản phẩm sau khi sử dụng"
-          src={row.getValue("afterImage")}
+          src={row.getValue("mainAfterImg")}
         />
       );
     },

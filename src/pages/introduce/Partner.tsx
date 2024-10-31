@@ -25,7 +25,7 @@ export default function Partner() {
           <span className="text-primary font-semibold">Thuan High Clean</span>
         </h2>
 
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {data.map((item) => (
             <div key={item.title} className="flex items-center gap-5">
               <img

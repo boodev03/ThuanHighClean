@@ -20,7 +20,7 @@ const commits = [
 const Commitment = () => {
   return (
     <section className="container mx-auto pt-[50px]">
-      <h2 className="text-[32px]  max-w-[70%] text-black font-bold mb-5">
+      <h2 className="text-[32px] max-w-[70%] text-black font-bold mb-5">
         Cam kết với khách hàng
       </h2>
       <p className="text-justify mb-8">
@@ -35,7 +35,7 @@ const Commitment = () => {
           <div key={index} className="space-y-5 mb-4">
             <p className="text-justify">
               {/* STT */}
-                <span className="font-bold">{index + 1}.  </span>
+              <span className="font-bold">{index + 1}. </span>
               <i>{commit}</i>
             </p>
           </div>

@@ -24,7 +24,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-5">
           <div className="*:text-sm *:font-medium *:leading-[1.5] space-y-[10px]">
             <Link to="/">
-              <img src="/assets/images/logo.png" alt="Thuan High Clean" />
+              <img
+                src="/assets/images/logo.png"
+                alt="Thuan High Clean"
+                className="max-w-[200px]"
+              />
             </Link>
             <p>
               Công Ty TNHH THUAN HIGH Clean | Thủ Dức, Thành Phố Hồ Chí Minh
