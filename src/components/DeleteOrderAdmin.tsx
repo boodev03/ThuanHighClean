@@ -104,27 +104,16 @@ export default function DeleteOrderAdmin({
               </StyledTableCell>
               <StyledTableCell component="th" scope="row">
                 <button
-                  onClick={() => handleDeleteOrder(order._id)}
+                  onClick={() => {
+                    if (confirm("Bạn có chắc chắn muốn xóa đơn hàng này không?")) {
+                      handleDeleteOrder(order._id);
+                    }
+                  }}
                   className="bg-red-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                 >
                   Xóa
                 </button>
               </StyledTableCell>
-              {/*}
-                <StyledTableCell align="right">
-                    {format(new Date(order.createdAt), "dd/MM/yyyy HH:mm:ss")}
-                </StyledTableCell>
-                <StyledTableCell align="right">{order.phone}</StyledTableCell>
-                <StyledTableCell align="right">{order.service}</StyledTableCell>
-                <StyledTableCell align="right">{order.order}</StyledTableCell>
-                <StyledTableCell align="right">
-                    <button
-                    onClick={() => handleDeleteOrder(order._id)}
-                    className="bg-red-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-                    >
-                    Đã gọi
-                    </button>
-                </StyledTableCell> */}
             </StyledTableRow>
           ))}
         </TableBody>

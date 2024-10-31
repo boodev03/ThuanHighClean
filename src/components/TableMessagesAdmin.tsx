@@ -74,7 +74,11 @@ export default function TableMessagesAdmin({messages, onItemDeleted}: TableMessa
                 <StyledTableCell align="right">{message.message}</StyledTableCell>
                 <StyledTableCell align="right">
                     <button
-                    onClick={() => handleDeleteMessage(message._id)}
+                    onClick={() => {
+                      if (confirm("Bạn có chắc chắn muốn xóa tin nhắn này không?")) {
+                        handleDeleteMessage(message._id);
+                      }
+                    }}
                     className="bg-red-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                     >
                     Đã gọi

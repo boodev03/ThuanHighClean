@@ -9,7 +9,7 @@ export default function DesktopNavbar() {
     <nav className="hidden lg:block flex-1 relative">
       <ul className="hidden lg:flex items-center gap-8 *:py-3 *:text-secondary *:font-semibold *:transition-all *:duration-200 *:cursor-pointer">
         <li className="hover:text-primary">
-          <Link to="/introduce">Về THUAN HIGH Clean</Link>
+          <Link to="/introduce"><span className="text-primary text-bold">ThuanHighClean</span></Link>
         </li>
         <li
           className="relative hover:text-primary flex items-center gap-1"
