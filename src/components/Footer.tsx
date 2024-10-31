@@ -60,7 +60,7 @@ export default function Footer() {
               {serviceData.map((item) => (
                 <li key={item.title}>
                   <Link
-                    to={`/${item.slug}`}
+                    to={`/service/${item.slug}`}
                     className="text-sm text-[#383838] font-medium hover:text-primary"
                   >
                     {item.name}
