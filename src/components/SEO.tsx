@@ -7,7 +7,7 @@ interface SEOProps {
 }
 
 const SEOConfig = ({ title, description, keywords }: SEOProps) => (
-  <Helmet>
+  <Helmet async={true}>
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="keywords" content={keywords} />
