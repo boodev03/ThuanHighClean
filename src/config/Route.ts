@@ -4,8 +4,13 @@ import ContactPage from "../pages/contact";
 import HomePage from "../pages/home";
 import IntroducePage from "../pages/introduce";
 import ServicePage from "../pages/service";
+import Login from "../pages/admin/login/";
 
 export const privateRoutes = [
+  {
+    path: "/admin/login",
+    component: Login,
+  },
   {
     path: "/admin/dashboard",
     component: AdminDashboard,
@@ -32,5 +37,5 @@ export const publicRoutes = [
   {
     path: "/detail/:slug",
     component: DetailUsedService,
-  },
+  }
 ];
