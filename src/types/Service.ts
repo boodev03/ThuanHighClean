@@ -39,7 +39,7 @@ export interface Service {
   title: string;
   priceTable: PriceTable[];
   process: Process;
-  note: string;
+  note?: string;
   advantages: {
     title: string;
     content: string;
