@@ -1,10 +1,12 @@
 export interface CustomerUsed {
-  id: number;
-  name: string;
+  _id: number;
+  nameOfCustomer: string;
+  phone: string;
   address: string;
-  serviceName: string;
-  beforeImage: string;
-  afterImage: string;
+  service: string;
   url: string;
-  review: string;
+  afterImgs: string[];
+  beforeImgs: string[];
+  mainAfterImg: string;
+  mainBeforeImg: string;
 }
