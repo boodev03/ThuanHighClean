@@ -23,7 +23,6 @@ function App() {
                   />
                 );
               })}
-              <Route element={<NotFound />} path="*" />
             </Route>
           </Routes>
           <Routes>
@@ -33,6 +32,9 @@ function App() {
                 <Route key={route.path} path={route.path} element={<Page />} />
               );
             })}
+            <Route element={<DefaultLayout />}>
+              <Route element={<NotFound />} path="*" />
+            </Route>
           </Routes>
         </BrowserRouter>
       </HelmetProvider>
