@@ -19,9 +19,12 @@ export function HomeCarousel() {
       className="w-full"
     >
       <CarouselContent>
-        {Array.from({ length: 3 }).map((_, index) => (
+        {Array.from({ length: 1 }).map((_, index) => (
           <CarouselItem key={index}>
-            <img src="./assets/images/banner_1.png" alt="Thuan High Clean" />
+            <img
+              src="./assets/images/banner_final.png"
+              alt="Thuan High Clean"
+            />
           </CarouselItem>
         ))}
       </CarouselContent>
