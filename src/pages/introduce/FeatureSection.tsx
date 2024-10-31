@@ -6,16 +6,12 @@ export default function FeatureSection() {
           <h2 className="mt-2 mb-4 text-[32px]  max-w-[70%] font-bold">
             Tầm nhìn
           </h2>
-          <p className="max-w-[70%]">
-            Không chỉ muốn giúp bạn chăm sóc gia đình từ những dịch vụ{" "}
-            <span className="text-primary font-medium">
-              dọn dẹp nhà, vệ sinh máy lạnh, nấu ăn gia đình, giặt ủi
-            </span>
-            ,...{" "}
-            <span className="text-primary font-medium">Thuan High Clean</span>{" "}
-            đang nỗ lực trở thành công ty hàng đầu Việt Nam và vươn ra thị
-            trường Đông Nam Á, cung cấp nhiều hơn những dịch vụ tiện ích gia
-            đình tích hợp trên ứng dụng di động.
+          <p className="max-w-[70%] text-justify">
+            <span className="text-primary font-medium">Thuan High Clean </span>
+            định hướng phát triển thành một 
+            trung tâm dịch vụ vệ sinh uy tín – chất lượng – tận tâm hàng đầu tại Việt Nam. 
+            Chúng tôi sẽ luôn không ngừng đổi mới, sáng tạo để mang đến cho quý khách hàng các s
+            ản phẩm dịch vụ làm sạch, góp phần nâng cao chất lượng môi trường sống và chung tay bảo vệ trái đất xanh.
           </p>
         </div>
         <img
@@ -32,14 +28,12 @@ export default function FeatureSection() {
           <h2 className="mt-2 mb-4 text-[32px]  max-w-[70%] font-bold">
             Sứ mệnh
           </h2>
-          <p className="max-w-[70%]">
+          <p className="max-w-[70%] text-justify">
             <span className="text-primary font-semibold">Thuan High Clean</span>{" "}
-            ra đời với sứ mệnh đáp ứng nhu cầu giải quyết việc nhà của người dân
-            đô thị và nâng cao giá trị nghề giúp việc nhà bằng cách xây dựng
-            nguồn nhân lực giúp việc bài bản, chuyên nghiệp và tận tâm. Cuộc
-            sống thảnh thơi khi nhẹ đi gánh nặng việc nhà của khách hàng và
-            nguồn thu nhập ổn định của người lao động chính là những gì mà chúng
-            tôi luôn hướng đến.
+            ra đời với sứ mệnh đáp ứng nhu cầu giải quyết việc nhà của người dân và 
+            nâng cao giá trị nghề giúp việc nhà bằng cách xây dựng nguồn nhân lực bài bản, 
+            chuyên nghiệp và tận tâm. Cuộc sống thảnh thơi khi nhẹ đi gánh nặng việc nhà 
+            của khách hàng và nguồn thu nhập ổn định của người lao động chính là những gì mà chúng tôi luôn hướng đến.
           </p>
         </div>
         <img

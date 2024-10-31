@@ -15,12 +15,13 @@ interface ProcessStep {
   description: string;
 }
 
-interface Process {
+export interface Process {
   title: string;
   description: string;
   steps: ProcessStep[];
   note?: string;
   addition?: string;
+  images?: string[];
 }
 
 interface SEOProps {
@@ -32,11 +33,13 @@ interface SEOProps {
 export interface Service {
   name: string;
   description: string;
+  descriptionImage?: string;
+  additionImages?: string[];
   slug: string;
   title: string;
   priceTable: PriceTable[];
   process: Process;
-  note: string;
+  note?: string;
   advantages: {
     title: string;
     content: string;
@@ -45,6 +48,7 @@ export interface Service {
   additionContent?: {
     title: string;
     content: string;
+    beforeImages?: string[];
   };
   beforePriceContent?: {
     title: string;

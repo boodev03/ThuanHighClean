@@ -38,6 +38,7 @@ export default function Login() {
           className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
         >
           <img className="h-20 mr-2" src="/assets/images/logo.png" alt="logo" />
+          <p className="mx-4 text-primary"> THUAN HIGH CLEAN</p>
         </a>
         <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -80,7 +81,7 @@ export default function Login() {
                 type="submit"
                 className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800  border-2"
               >
-                <h3 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-1xl dark:text-white">
+                <h3 className="text-xl font-bold md:text-1xl text-primary">
                   Đăng nhập
                 </h3>
               </button>
