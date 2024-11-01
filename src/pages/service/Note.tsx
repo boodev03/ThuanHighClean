@@ -8,7 +8,7 @@ export default function Note() {
     <section className="container mx-auto">
       <p
         dangerouslySetInnerHTML={{ __html: service?.note || "" }}
-        className="lg:text-shadow lg:text-secondary mb-4"
+        className="lg:text-shadow lg:text-secondary text-justify mb-4"
       />
     </section>
   );

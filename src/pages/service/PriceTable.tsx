@@ -23,12 +23,12 @@ export default function PriceTable({priceTable}: IProps) {
             key={index}
             className="[&_th:first-child]:w-2/5 [&_th:last-child]:w-2/5"
           >
-            <h2 className="text-[32px]  max-w-[70%] text-primary font-bold mb-5 capitialize">
+            <h2 className="text-[32px]  max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5 capitialize">
               {price.title}
             </h2>
             <p
               dangerouslySetInnerHTML={{ __html: price.description || "" }}
-              className="lg:text-shadow lg:text-secondary mb-4"
+              className="lg:text-shadow lg:text-secondary text-justify mb-4 text-justify"
             />
             <DataTable
               showPagination={false}

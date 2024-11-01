@@ -8,12 +8,12 @@ export default function BeforePriceContent() {
     <>
         {service?.beforePriceContent?.map(item => (
             <section key={item.title} className="container mx-auto">
-            <h2 className="text-[32px] max-w-[70%] text-primary font-bold mb-5">
+            <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5">
               {item.title}
             </h2>
             <p
               dangerouslySetInnerHTML={{ __html: item.content || "" }}
-              className="lg:text-shadow lg:text-secondary mb-4 space-y-3"
+              className="lg:text-shadow lg:text-secondary text-justify mb-4 space-y-3"
             />
           </section>
         ))}

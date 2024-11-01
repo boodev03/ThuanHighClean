@@ -7,7 +7,7 @@ export default function AdditionAfterProcess() {
   return (
     <div
     dangerouslySetInnerHTML={{ __html: service?.process.addition || "" }}
-    className="lg:text-shadow lg:text-secondary mb-4 space-y-5"
+    className="lg:text-shadow lg:text-secondary text-justify mb-4 space-y-5"
   />
   );
 }

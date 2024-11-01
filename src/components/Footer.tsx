@@ -31,7 +31,7 @@ export default function Footer() {
               />
             </Link>
             <p>
-              Công Ty TNHH THUAN HIGH Clean | Thủ Dức, Thành Phố Hồ Chí Minh
+              Công Ty TNHH THUAN HIGH Clean | Thủ Đức, Thành Phố Hồ Chí Minh
             </p>
             <p>Số điện thoại: 035 711 1566</p>
             <p>Email: thuanhighclean@gmail.com</p>

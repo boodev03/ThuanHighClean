@@ -13,7 +13,7 @@ export default function IntroduceService({
 }: IProps) {
   return (
     <section className="container mx-auto lg:text-secondary">
-      <h2 className="text-[32px] max-w-[70%] text-primary font-bold mb-5">
+      <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5">
         {title}
       </h2>
 
@@ -23,7 +23,7 @@ export default function IntroduceService({
 
       <p
         dangerouslySetInnerHTML={{ __html: description }}
-        className="lg:text-shadow lg:text-secondary mb-4 space-y-3"
+        className="lg:text-shadow lg:text-secondary text-justify mb-4 space-y-3"
       />
 
       {additionImages &&

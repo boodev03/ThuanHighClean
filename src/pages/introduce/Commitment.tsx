@@ -20,7 +20,7 @@ const commits = [
 const Commitment = () => {
   return (
     <section className="container mx-auto pt-[50px]">
-      <h2 className="text-[32px] max-w-[70%] text-black font-bold mb-5">
+      <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-black font-bold mb-5">
         Cam kết với khách hàng
       </h2>
       <p className="text-justify mb-8">

@@ -12,13 +12,13 @@ export default function AdditionContent({ additionContent }: IProps) {
       {additionContent.beforeImages?.map((image) => (
         <img key={image} src={image} alt={image} />
       ))}
-      <h2 className="text-[32px] max-w-[70%] text-primary font-bold mb-5">
+      <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5">
         {additionContent?.title}
       </h2>
 
       <p
         dangerouslySetInnerHTML={{ __html: additionContent?.content || "" }}
-        className="lg:text-shadow lg:text-secondary mb-4 space-y-3"
+        className="lg:text-shadow lg:text-secondary text-justify mb-4 space-y-3"
       />
     </section>
   );
