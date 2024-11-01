@@ -37,7 +37,7 @@ const data = [
     description:
       "Làm sạch sofa đòi hỏi kỹ năng và chất làm sạch phù hợp. Nhân viên vệ sinh của chúng tôi được đào tạo về phương pháp làm sạch hiệu quả nhất để mang lại cho bạn sự hài lòng cao nhất.",
     thumb: "/assets/images/ve-sinh-sofa/thumb.jpg",
-    slug: "ve-sinh-sofa",
+    slug: "giat-ghe-sofa",
   },
   {
     title: "Vệ sinh nệm",

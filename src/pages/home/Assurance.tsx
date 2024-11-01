@@ -1,7 +1,7 @@
 const assuranceData = [
   {
     title: "Đặt lịch nhanh chóng",
-    desc: "Thao tác 60 giây trên ứng dụng, có ngay người nhận việc sau 60 phút",
+    desc: "Chỉ cần khách hàng để lại lời nhắn, gọi điện trực tiếp hoặc đặt lịch trên ứng dụng, chúng tôi sẽ liên hệ ngay với bạn.",
     badgePath: "./assets/images/badge-time-clock.png",
   },
   {
@@ -24,7 +24,7 @@ const assuranceData = [
 export default function Assurance() {
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10">
+      <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-[#333] font-bold mb-10">
         An tâm với lựa chọn của bạn
       </h2>
 

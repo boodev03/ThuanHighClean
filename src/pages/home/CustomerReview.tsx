@@ -103,7 +103,7 @@ export default function CustomerReview() {
   const plugin = React.useRef(Autoplay({ delay: 4000 }));
   return (
     <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px]  max-w-[70%] text-[#333] font-bold mb-10">
+      <h2 className="text-[32px] max-w-[100%]  md:max-w-[70%] text-[#333] font-bold mb-10">
         Chia sẻ của khách hàng
       </h2>
       <Carousel

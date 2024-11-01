@@ -8,12 +8,12 @@ interface IProps {
 export default function Process({ process }: IProps) {
   return (
     <section className="container mx-auto">
-      <h2 className="text-[32px] max-w-[70%] text-primary font-bold mb-5">
+      <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5">
         {process.title}
       </h2>
       <p
         dangerouslySetInnerHTML={{ __html: process.description || "" }}
-        className="lg:text-shadow lg:text-secondary mb-4"
+        className="lg:text-shadow lg:text-secondary text-justify mb-4"
       />
       <div className="space-y-5">
         <ul className="pl-5">
@@ -24,7 +24,7 @@ export default function Process({ process }: IProps) {
               </h3>
               <p
                 dangerouslySetInnerHTML={{ __html: step.description || "" }}
-                className="lg:text-shadow lg:text-secondary space-y-2"
+                className="lg:text-shadow lg:text-secondary text-justify space-y-2"
               />
             </li>
           ))}

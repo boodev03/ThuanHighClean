@@ -52,8 +52,8 @@ export default function ServicePage() {
             descriptionImage={service.descriptionImage}
             additionImages={service.additionImages}
           />
-          <BeforePriceContent />
           <PriceTable priceTable={service.priceTable} />
+          <BeforePriceContent />
           <Note />
           <Process process={service.process} />
           {service.additionContent && (

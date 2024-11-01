@@ -27,7 +27,7 @@ export default function IntroducePage() {
         <section className="bg-[#F5F5F5] py-[60px]">
           <div className="container mx-auto ">
             <div className="lg:max-w-[50%] space-y-5 mb-4">
-              <h2 className="text-[32px] max-w-[70%] text-black font-bold">
+              <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-black font-bold">
                 Chúng tôi là{"\n"}
                 <span className="block text-primary font-bold text-[32px]">
                   THUAN HIGH CLEAN
@@ -46,7 +46,7 @@ export default function IntroducePage() {
               </p>
             </div>
             <div className="lg:max-w-[50%] space-y-5 mb-4">
-              <h2 className="text-[32px] max-w-[70%] text-black font-bold">
+              <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-black font-bold">
                 Khu vực hoạt động
               </h2>
               <p className="text-justify">
@@ -56,7 +56,7 @@ export default function IntroducePage() {
               </p>
             </div>
             <div className="lg:max-w-[50%] space-y-5 mb-4">
-              <h2 className="text-[31px]  max-w-[70%] text-black font-bold">
+              <h2 className="text-[31px]  max-w-[100%] md:max-w-[70%] text-black font-bold">
                 Phát triển nhiều hơn nữa
               </h2>
               <p className="text-justify">
