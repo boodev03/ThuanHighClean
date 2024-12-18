@@ -44,7 +44,7 @@ const data = [
     description:
       "Nệm là nơi tích tụ nhiều bụi bẩn, vi khuẩn và mùi hôi. Bạn đừng lo dịch vụ vệ sinh nệm của Thuan High sẽ giúp bạn giải quyết vấn đề này một cách hiệu quả.",
     thumb: "/assets/images/ve-sinh-nem/thumb.jpg",
-    slug: "ve-sinh-nem",
+    slug: "giat-nem-tai-nha",
   },
   {
     title: "Vệ sinh rèm cửa",

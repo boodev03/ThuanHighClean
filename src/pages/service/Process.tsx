@@ -31,7 +31,7 @@ export default function Process({ process }: IProps) {
         </ul>
 
         {process.images?.map((image) => (
-          <img key={image} src={image} alt={process.title} className="mb-5" />
+          <img key={image} src={image} alt={process.title} className="mb-5 mx-auto" />
         ))}
 
         <p

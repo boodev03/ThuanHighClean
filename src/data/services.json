@@ -1,6 +1,48 @@
 {
   "services": [
     {
+      "name": "Vệ sinh sau xây dựng",
+      "seo": {
+          "title": "Dịch Vụ Vệ Sinh Sau Xây Dựng Uy Tín, Chuyên Nghiệp Tại THUAN HIGH CLEAN",
+          "description": "Tận hưởng dịch vụ vệ sinh sau xây dựng tại THUAN HIGH CLEAN. Chúng tôi cung cấp giải pháp làm sạch kỹ lưỡng, an toàn với thiết bị và hóa chất hiện đại, đảm bảo không gian sống hoàn hảo sau xây dựng. Đặt lịch ngay hôm nay để trải nghiệm dịch vụ tốt nhất!",
+          "keywords": "vệ sinh sau xây dựng, dịch vụ vệ sinh, làm sạch sau xây dựng, vệ sinh chuyên nghiệp, THUAN HIGH CLEAN, giá vệ sinh sau xây dựng, hóa chất vệ sinh, dịch vụ làm sạch công trình"
+      },
+      "title": "DỊCH VỤ VỆ SINH SAU XÂY DỰNG UY TÍN GIÁ RẺ TẠI TPHCM",
+      "coverImage": "/assets/images/service-detail/clean-sofa.jpg",
+      "slug": "ve-sinh-sau-xay-dung",
+      "descriptionImage": "/assets/images/ve-sinh-sau-xay-dung/1.png",
+      "description": "<p><b>Vệ sinh nhà sau xây dựng</b> là một bước quan trọng trong quá trình hoàn tất công trình xây dựng. Trong quá trình thi công, một số vật dụng còn lại như xi măng, vết sơn, thạch cao, vết bẩn, bụi, rác và phế liệu công trình... có thể bám lại trên mặt bằng. Để tránh việc gây tắc nghẽn cho việc sử dụng, cần phải dọn dẹp và làm sạch kỹ càng những vật dụng này. </p> <p><b>Giá vệ sinh dao động từ 8.000 đồng - 25.000 đồng/M2. Mức giá dao động phụ thuộc vào diện tích, số phòng và hạng mục cần thực hiện.</b></p>",
+      "advantages": {
+        "title": "Vì sao nên lựa chọn dịch vụ vệ sinh nhà sau xây dựng tại Thuan High Clean?",
+        "content": "<p>Thuan High Clean là một trong những công ty uy tín về dịch vụ vệ sinh nhà sau xây dựng tại Việt Nam. Chúng tôi luôn cam kết mang đến dịch vụ tốt nhất cho khách hàng, với những lý do sau:<img src='/assets/images/ve-sinh-sau-xay-dung/4.png' class='mx-auto'/></p><ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b class='block'>Nhân viên chuyên nghiệp</b>Thuan High có đội ngũ viên chuyên nghiệp, có kinh nghiệm về dịch vụ vệ sinh sau xây dựng. Họ sẽ hoàn thành các công việc với chất lượng cao, đảm bảo sự hài lòng của khách hàng.</li><li class='space-y-1'><b class='block'>Thiết bị vệ sinh sau xây dựng hiện đại</b>Sử dụng thiết bị hiện đại và chuyên nghiệp để hoàn thành các công việc, giúp đạt được năng suất cao và chất lượng tốt nhất.</li><li class='space-y-1'><b class='block'>Quy trình vệ sinh nhà sau xây dựng tối ưu</b>Thuan High có quy trình vệ sinh nhà sau xây dựng tối ưu. Giúp đảm bảo tất cả các công việc được hoàn thành một cách tối đa với chi phí tối thiểu.</li><li class='space-y-1'><b class='block'>Cam kết chất lượng tốt nhất</b>Thuan High luôn cam kết chất lượng tốt nhất cho khách hàng. Chúng tôi sẽ hoàn thành các công việc với sự tận tâm và chất lượng cao nhất, đảm bảo cho khách hàng hài lòng.</li><li class='space-y-1'><b class='block'>Dịch vụ vệ sinh nhà sau xây dựng chuyên nghiệp</b>Chúng tôi có đội ngũ nhân viên chuyên nghiệp và được đào tạo bài bản về các kỹ thuật vệ sinh công trình sau xây dựng. Chúng tôi sử dụng các thiết bị và dụng cụ tiên tiến để hoàn thành công việc một cách hiệu quả và tốt nhất.</li><li class='space-y-1'><b class='block'>Giá cả hợp lý</b>Thuan High cung cấp dịch vụ vệ sinh công nghiệp sau xây dựng với giá cả hợp lý và phù hợp với túi tiền của khách hàng. Chúng tôi cam kết giá không phát sinh thêm chi phí.</li></ul> <img src='/assets/images/ve-sinh-sau-xay-dung/5.png' class='mx-auto'/>"
+      },
+      "priceTable": [],
+      "process": {
+        "title": "Quy trình vệ sinh sau xây dựng tại THUAN HIGH CLEAN",
+        "description": "Cung cấp dịch vụ giặt màn cửa tại nhà chuyên nghiệp và chất lượng, Thuan High Clean luôn đề cao quy trình thực hiện nghiêm ngặt trong từng bước để đem đến sự hài lòng, tiện lợi cho khách hàng của mình.",
+        "steps": [
+          {
+            "step": "Bước 1: Tiến hành khảo sát",
+            "description": "Sau khi tiếp nhận thông tin từ khách hàng, tùy thuộc vào nhu cầu như thế nào mà chúng tôi sẽ tiến hành khảo sát cũng như báo giá sơ bộ, làm hợp đồng."
+          },
+          {
+            "step": "Bước 2: Triển khai thi công",
+            "description": "<p>Đầu tiên, dọn dẹp hết xà bần( nếu có ) do các đơn vị thi công xây dựng và lắp đặt để lại.</p><p>Tiến hành vệ sinh các phần còn lại:</p><ul style='list-style: disc; padding-left: 40px' class='space-y-3'><li>Làm sạch trần: hút bụi trần nhà, mạng nhện, làm sạch bóng đèn, quạt trần (nếu có),..</li><li>Làm sạch tường: lau sạch vết bụi trên máy lạnh, máy quạt, bóng đèn, tranh, ảnh, ổ điện (nếu có),..</li><li>Làm sạch cửa: lau cửa sổ, cửa ra vào, vệ sinh kính lan can, kính cầu thang,..</li><li>Vệ sinh các đồ nội thất như bàn, ghế, giường, tủ, bếp,..</li><li>Vệ sinh toilet, bồn rửa mặt,..</li><li>Làm sạch sàn: tẩy vết sơn, xi măng, thạch cao, keo,…</li></ul><img src='/assets/images/ve-sinh-sau-xay-dung/3.png' class='mx-auto'/> "
+          },
+          {
+            "step": "Bước 3: Nghiệm thu và bàn giao",
+            "description": "<ul style='list-style: disc; padding-left: 40px' class='space-y-3'><li>Khách hàng cùng với nhân viên của chúng tôi cùng đi nghiệm thu, nếu khách hàng chưa hài lòng ở phần nào có thể yêu cầu nhân viên xử lý lại.</li><li>Chính sách bảo hành của Thuan High Clean trong 3 ngày nghiệm thu xong nếu có bất kì sự cố: tường, sàn bị ố, inox chuyển màu do hóa chất,… Chỉ cần liên hệ 0357111566 sẽ được hỗ trợ khắc phục hoàn toàn miễn phí.</li></ul>"
+          }
+        ]
+      },
+      "beforePriceContent": [
+        {
+          "title": "Lợi ích của việc sử dụng dịch vụ Vệ sinh sau xây dựng tại Thuan High Clean",
+          "content": "<ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b>Tiết kiệm thời gian và công sức</b><p>Dọn dẹp sau xây dựng đòi hỏi nhiều thời gian và công sức do khối lượng bụi bẩn, mảnh vụn, và các chất còn lại. Dịch vụ vệ sinh chuyên nghiệp của Thuan High giúp gia chủ tiết kiệm công sức và nhanh chóng hoàn thiện không gian sống.</p></li><li class='space-y-1'><b>Đảm bảo sạch sẽ toàn diện</b><p>Thuan High có trang thiết bị chuyên dụng và kỹ năng để làm sạch từng ngóc ngách, từ sàn, tường, cửa sổ đến các chi tiết nhỏ. Đảm bảo ngôi nhà mới sạch sẽ, không còn sót lại vết bẩn nào.</p></li><li class='space-y-1'><b>Xử lý hóa chất và bụi xây dựng an toàn</b><p>Thuan High có biện pháp xử lý các hóa chất, bụi và mảnh vụn còn lại sau xây dựng, đảm bảo an toàn cho không khí và sức khỏe gia đình.</p></li><li class='space-y-1'><b>Sẵn sàng để vào ở</b><p>Sau khi dọn dẹp, ngôi nhà mới sẽ sẵn sàng, gọn gàng, và sạch sẽ, giúp gia đình có thể vào ở ngay mà không phải lo lắng thêm về vấn đề vệ sinh.</p></li></ul><img src='/assets/images/ve-sinh-sau-xay-dung/2.png' class='mx-auto'/>"
+        }
+      ]
+    },
+    {
       "name": "Giặt thảm văn phòng",
       "seo": {
         "title": "Dịch Vụ Giặt Thảm Văn Phòng Giá Tốt, Uy Tín Tại THUAN HIGH CLEAN",
@@ -10,7 +52,7 @@
       "title": "THUAN HIGH CLEAN – Dịch Vụ Giặt Thảm Văn Phòng Giá Tốt, Uy Tín Diệt Khuẩn 99%",
       "coverImage": "/assets/images/service-detail/clean-sofa.jpg",
       "slug": "giat-tham-van-phong",
-      "descriptionImage": "/assets/images/giat-tham-van-phong/img_1.png",
+      "descriptionImage": "/assets/images/giat-tham-van-phong/1.png",
       "additionImages": [
         "/assets/images/giat-tham-van-phong/img_2.png"
       ],
@@ -94,7 +136,7 @@
       "note": "<b style='margin-bottom: 12px; display: block'>Lưu ý</b> <ul style='list-style: disc; padding-left: 40px' class='space-y-2'><li>Bảng giá <b>vệ sinh thảm văn phòng và ghế văn phòng</b> trên đây chưa bao gồm thuế GTGT (VAT) 8%</li><li>Trường hợp nhân viên đến vệ sinh thảm và kiểm tra diện tích thảm nhỏ hoặc lớn hơn thực tế khách hàng cung cấp, chung tôi sẽ tính <b>giảm</b> hoặc <b>tăng</b> giá giặt thảm văn phòng tương đương như bảng báo giá trên.</li><li>Chi phí trên đã bao gồm chi phí đi lại, chi phí vận chuyển của trang thiết bị và nhân viên kỹ thuật. Đặc biệt, chúng tôi cam kết không phát sinh thêm bất cứ chi phí nào khác.</li></ul>",
       "process": {
         "title": "Quy trình giặt thảm chuyên nghiệp của THUAN HIGH CLEAN",
-        "images": ["/assets/images/giat-tham-van-phong/img_4.png"],
+        "images": ["/assets/images/giat-tham-van-phong/4.png"],
         "description": "Các quy trình giặt thảm tùy mỗi công ty sẽ khác nhau và tùy vào hóa chất và thiết bị máy móc sử dụng. Tại Thuan High Clean, chúng tôi không ngừng cải tiến hoàn thiện để có được một quy trình vệ sinh thảm tại nhà chuyên nghiệp, chất lượng tốt nhất mang đến cho khách hàng.",
         "steps": [
           {
@@ -215,7 +257,7 @@
     },
     {
       "name": "Giặt ghế Sofa",
-      "descriptionImage": "/assets/images/ve-sinh-sofa/img_1.png",
+      "descriptionImage": "/assets/images/ve-sinh-sofa/1.png",
       "seo": {
         "title": "Dịch vụ giặt Ghế Sofa tại nhà giá rẻ, sạch sẽ, cam kết sạch đến 99%",
         "description": "Ghế sofa không chỉ là một món đồ nội thất, mà còn mang lại nhiều tác dụng hữu ích. Dịch vụ giặt ghế Sofa tại Thuan High Clean giúp bạn tiết kiệm thời gian và công sức, bảo vệ ghế sofa khỏi hư hỏng, và cam kết sạch sẽ đến 99%. Hãy trải nghiệm dịch vụ giặt ghế sofa chuyên nghiệp của chúng tôi ngay hôm nay!",
@@ -295,7 +337,7 @@
       },
       "advantages": {
         "title": "Dịch vụ giặt ghế sofa tại nhà của THUAN HIGH CLEAN có gì nổi bật ?",
-        "content": "<div><b>Đặt lịch nhanh chóng</b><p style='margin: 8px 0'>Khách hàng đặt lịch dịch vụ giặt ghế sofa tại nhà. Sau vài phút và tối thiểu 1 tiếng di chuyển nhân viên sẽ đến nơi làm việc. Thời gian vệ sinh sofa từ khoảng 1 – 2 tiếng tùy thuộc vào số lượng, loại ghế.</p><p class='mt-2'>Tại Thuan High Clean , quý khách hàng có thể chủ động sắp xếp thời gian vệ sinh sao cho phù hợp với bản thân. Hãy trải nghiệm dịch vụ giặt ghế sofa của Thuan High Clean ngay hôm nay để có được bộ sofa sạch sẽ, thơm tho và bền đẹp.</p></div><div><b>Chuyên gia giặt sofa có nhiều năm kinh nghiệm</b><p style='margin: 8px 0'>Với mong muốn mang đến cho khách hàng trải nghiệm dịch vụ giặt ghế sofa hài lòng nhất, Thuan High Clean đã xây dựng đội ngũ nhân viên thành các chuyên gia vệ sinh sofa chuyên nghiệp, tận tâm, tận tình.</p><p style='margin: 8px 0'>Nhân Viên được đào tạo bài bản, đáp ứng 3 tiêu chí: Thái độ, trình độ, khả năng xử lý tình huống.</p><ul style='padding-left: 40px; list-style: disc' class='space-y-3'><li><b>Thái độ:</b> Nhân Viên luôn được đào tạo về thái độ làm việc chuyên nghiệp, tận tâm, tận tình, chu đáo. Họ luôn đặt lợi ích của khách hàng lên hàng đầu, mang đến cho khách hàng những trải nghiệm dịch vụ tốt nhất.</li><li><b>Trình độ:</b> Chuyên gia giặt sofa nhà Thuan High Clean được đào tạo bài bản về kiến thức chuyên môn, kỹ năng sử dụng máy móc hiện đại và dung dịch vệ sinh an toàn.</li><li><b>Khả năng xử lý tình huống:</b> Nhân Viên được đào tạo về khả năng xử lý tình huống linh hoạt, khéo léo. Họ có thể xử lý mọi tình huống phát sinh trong quá trình thực hiện nhiệm vụ, đảm bảo mang đến dịch vụ chất lượng nhất.</li></ul><p class='mt-2'>Với đội ngũ chuyên gia vệ sinh sofa được đào tạo chuyên nghiệp, Thuan High Clean cam kết mang đến cho khách hàng trải nghiệm dịch vụ giặt ghế sofa tại nhà chất lượng nhất.</p></div><div><b>Thiết bị vệ sinh sofa hiện đại</b><p style='margin: 8px 0'>Trang thiết bị, máy móc được Thuan High Clean sử dụng trong quá trình giặt ghế sofa bao gồm:</p><ul style='padding-left: 40px; list-style: disc' class='space-y-3 mt-2'><li><b>Máy hút bụi công nghiệp:</b>  Là loại máy hút bụi có công suất lớn, lực hút mạnh, giúp loại bỏ bụi bẩn, lông thú, tóc,… bám trên bề mặt sofa.</li><li><b>Máy đánh sofa:</b> Máy giúp đánh bay các vết bẩn lâu ngày, làm mới bề mặt sofa , trả lại vẻ sáng bóng như mới.</li><li><b>Máy xịt hơi nước nóng:</b> Máy giúp xịt hơi nước nóng lên bề mặt sofa, giúp loại bỏ vết bẩn cứng đầu, vết ố vàng,…</li><li><b>Máy sấy Sofa:</b> Loại máy giúp sấy khô sofa sau khi vệ sinh, tránh ẩm mốc.</li><img src='/assets/images/ve-sinh-sofa/img_6.png' alt='Thiết bị vệ sinh sofa' /></ul><p class='mt-2'>Dung dịch vệ sinh sofa có nguồn gốc xuất xứ rõ ràng, đến từ những thương hiệu uy tín trên thị trường, giúp đảm bảo an toàn cho người sử dụng và duy trì độ bền của ghế.</p></div><div><p style='margin: 8px 0' class='font-bold'>Chính sách bảo hành</p><p>Thuan High Clean có chính sách bảo hành 48h sau khi khách hàng sử dụng dịch vụ giặt ghế sofa tại nhà. Mọi thắc mắc, khiếu nại bạn hãy liên hệ SDT: 0357 111 566 và nhận được sự hỗ trợ tận tình, nhanh chóng.</p><p class='mt-2'>Sau khi hoàn tất quá trình nghiệm thu, chúng tôi vẫn luôn hỗ trợ khách hàng xử lý các tình huống khách hàng chưa hài lòng mà không phát sinh thêm bất kỳ chi phí nào.</p><p class='mt-2'>Đội Ngũ Thuan High Clean luôn lắng nghe và giải quyết các vấn đề phát sinh nhằm đảm bảo quyền lợi cho khách hàng.</p><img src='/assets/images/ve-sinh-sofa/img_7.png' alt='Vệ sinh Sofa' /></div>"
+        "content": "<div><b>Đặt lịch nhanh chóng</b><p style='margin: 8px 0'>Khách hàng đặt lịch dịch vụ giặt ghế sofa tại nhà. Sau vài phút và tối thiểu 1 tiếng di chuyển nhân viên sẽ đến nơi làm việc. Thời gian vệ sinh sofa từ khoảng 1 – 2 tiếng tùy thuộc vào số lượng, loại ghế.</p><p class='mt-2'>Tại Thuan High Clean , quý khách hàng có thể chủ động sắp xếp thời gian vệ sinh sao cho phù hợp với bản thân. Hãy trải nghiệm dịch vụ giặt ghế sofa của Thuan High Clean ngay hôm nay để có được bộ sofa sạch sẽ, thơm tho và bền đẹp.</p></div><div><b>Chuyên gia giặt sofa có nhiều năm kinh nghiệm</b><p style='margin: 8px 0'>Với mong muốn mang đến cho khách hàng trải nghiệm dịch vụ giặt ghế sofa hài lòng nhất, Thuan High Clean đã xây dựng đội ngũ nhân viên thành các chuyên gia vệ sinh sofa chuyên nghiệp, tận tâm, tận tình.</p><p style='margin: 8px 0'>Nhân Viên được đào tạo bài bản, đáp ứng 3 tiêu chí: Thái độ, trình độ, khả năng xử lý tình huống.</p><ul style='padding-left: 40px; list-style: disc' class='space-y-3'><li><b>Thái độ:</b> Nhân Viên luôn được đào tạo về thái độ làm việc chuyên nghiệp, tận tâm, tận tình, chu đáo. Họ luôn đặt lợi ích của khách hàng lên hàng đầu, mang đến cho khách hàng những trải nghiệm dịch vụ tốt nhất.</li><li><b>Trình độ:</b> Chuyên gia giặt sofa nhà Thuan High Clean được đào tạo bài bản về kiến thức chuyên môn, kỹ năng sử dụng máy móc hiện đại và dung dịch vệ sinh an toàn.</li><li><b>Khả năng xử lý tình huống:</b> Nhân Viên được đào tạo về khả năng xử lý tình huống linh hoạt, khéo léo. Họ có thể xử lý mọi tình huống phát sinh trong quá trình thực hiện nhiệm vụ, đảm bảo mang đến dịch vụ chất lượng nhất.</li></ul><p class='mt-2'>Với đội ngũ chuyên gia vệ sinh sofa được đào tạo chuyên nghiệp, Thuan High Clean cam kết mang đến cho khách hàng trải nghiệm dịch vụ giặt ghế sofa tại nhà chất lượng nhất.</p></div> <img src='/assets/images/ve-sinh-sofa/2.png' class='mx-auto'/><div><b>Thiết bị vệ sinh sofa hiện đại</b><p style='margin: 8px 0'>Trang thiết bị, máy móc được Thuan High Clean sử dụng trong quá trình giặt ghế sofa bao gồm:</p><ul style='padding-left: 40px; list-style: disc' class='space-y-3 mt-2'><li><b>Máy hút bụi công nghiệp:</b>  Là loại máy hút bụi có công suất lớn, lực hút mạnh, giúp loại bỏ bụi bẩn, lông thú, tóc,… bám trên bề mặt sofa.</li><li><b>Máy đánh sofa:</b> Máy giúp đánh bay các vết bẩn lâu ngày, làm mới bề mặt sofa , trả lại vẻ sáng bóng như mới.</li><li><b>Máy xịt hơi nước nóng:</b> Máy giúp xịt hơi nước nóng lên bề mặt sofa, giúp loại bỏ vết bẩn cứng đầu, vết ố vàng,…</li><li><b>Máy sấy Sofa:</b> Loại máy giúp sấy khô sofa sau khi vệ sinh, tránh ẩm mốc.</li><img src='/assets/images/ve-sinh-sofa/img_6.png' alt='Thiết bị vệ sinh sofa' /></ul><p class='mt-2'>Dung dịch vệ sinh sofa có nguồn gốc xuất xứ rõ ràng, đến từ những thương hiệu uy tín trên thị trường, giúp đảm bảo an toàn cho người sử dụng và duy trì độ bền của ghế.</p></div><div><p style='margin: 8px 0' class='font-bold'>Chính sách bảo hành</p><p>Thuan High Clean có chính sách bảo hành 48h sau khi khách hàng sử dụng dịch vụ giặt ghế sofa tại nhà. Mọi thắc mắc, khiếu nại bạn hãy liên hệ SDT: 0357 111 566 và nhận được sự hỗ trợ tận tình, nhanh chóng.</p><p class='mt-2'>Sau khi hoàn tất quá trình nghiệm thu, chúng tôi vẫn luôn hỗ trợ khách hàng xử lý các tình huống khách hàng chưa hài lòng mà không phát sinh thêm bất kỳ chi phí nào.</p><p class='mt-2'>Đội Ngũ Thuan High Clean luôn lắng nghe và giải quyết các vấn đề phát sinh nhằm đảm bảo quyền lợi cho khách hàng.</p><img src='/assets/images/ve-sinh-sofa/3.png' alt='Vệ sinh Sofa' class='mx-auto'/></div>"
       },
       "beforePriceContent": [
         {
@@ -309,7 +351,7 @@
       ],
       "questions": {
         "title": "Câu hỏi thường gặp",
-        "content": "<div class='space-y-2'><b>Vì sao nên vệ sinh ghế sofa thường xuyên?</b><ul style='list-style: disc; margin-left: 40px' class='space-y-3'><li>Bảo vệ sức khỏe: Ghế sofa có thể tích tụ bụi bẩn, vi khuẩn, nấm mốc và các chất gây dị ứng. Vệ sinh thường xuyên giúp giảm nguy cơ bệnh tật và dị ứng.</li><li>Nâng cao tính thẩm mỹ: Giặt ghế sofa định kỳ giúp loại bỏ những vết bẩn trên ghế, giúp làm sạch và lấy lại được vẻ đẹp như mới cho chiếc ghế sofa.</li><li>Tăng tuổi thọ cho ghế : Bằng cách loại bỏ bụi và vết bẩn, bạn có thể ngăn chặn sự hư hại và kéo dài tuổi thọ của ghế sofa.</li><li>Cải thiện không khí: Ghế sofa bẩn có thể làm giảm chất lượng không khí trong nhà. Vệ sinh định kỳ giúp cải thiện không khí xung quanh bạn.</li><li>Tạo cảm giác thoải mái: Một chiếc ghế sofa sạch sẽ mang lại cảm giác dễ chịu hơn khi sử dụng.</li></ul></div><div class='space-y-2'><b>Thời gian giặt ghế sofa trong bao lâu?</b><p>Thời gian giặt ghế sofa của Thuan High Clean dao động khoảng 1 tiếng . Tùy vào số lượng nhiều hay ích và có vết bẩn cứng đầu thì thời gian vệ sinh có thể lâu hơn.</p></div><div class='space-y-2'><b>Sau khi giặt ghế sofa thì bao lâu có thể sử dụng được?</b><p>Sau khi vệ sinh, ghế sofa sẽ khô hoàn toàn trong khoảng từ 2 đến 4 giờ. Quý khách có thể sử dụng ghế sofa như bình thường mà không lo ghế bị ẩm mốc.</p></div><div class='space-y-2'><b>Bao lâu nên giặt ghế sofa 1 lần?</b><p>Theo các chuyên gia, nên vệ sinh ghế sofa định kỳ từ 3 – 6 tháng/lần. Đối với các vết bẩn như vụn thức ăn, chất bẩn dạng lỏng, vết mực, do thú cưng tè… thì bạn cần vệ sinh càng sớm càng tốt.</p><div><h2 style='margin: 60px 0 20px' class='text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5'>Một số hình ảnh vệ sinh ghế Sofa do THUAN HIGH CLEAN thực hiện</h2><img style='max-w-[75%] margin: 0 auto' src='/assets/images/ve-sinh-sofa/img_8.png' alt='vệ sinh sofa' /><img style='max-w-[75%] margin: 0 auto' src='/assets/images/ve-sinh-sofa/img_9.png' alt='vệ sinh sofa' /><img style='max-w-[75%] margin: 0 auto' src='/assets/images/ve-sinh-sofa/img_10.png' alt='vệ sinh sofa' /></div></div>"
+        "content": "<div class='space-y-2'><b>Vì sao nên vệ sinh ghế sofa thường xuyên?</b><ul style='list-style: disc; margin-left: 40px' class='space-y-3'><li>Bảo vệ sức khỏe: Ghế sofa có thể tích tụ bụi bẩn, vi khuẩn, nấm mốc và các chất gây dị ứng. Vệ sinh thường xuyên giúp giảm nguy cơ bệnh tật và dị ứng.</li><li>Nâng cao tính thẩm mỹ: Giặt ghế sofa định kỳ giúp loại bỏ những vết bẩn trên ghế, giúp làm sạch và lấy lại được vẻ đẹp như mới cho chiếc ghế sofa.</li><li>Tăng tuổi thọ cho ghế : Bằng cách loại bỏ bụi và vết bẩn, bạn có thể ngăn chặn sự hư hại và kéo dài tuổi thọ của ghế sofa.</li><li>Cải thiện không khí: Ghế sofa bẩn có thể làm giảm chất lượng không khí trong nhà. Vệ sinh định kỳ giúp cải thiện không khí xung quanh bạn.</li><li>Tạo cảm giác thoải mái: Một chiếc ghế sofa sạch sẽ mang lại cảm giác dễ chịu hơn khi sử dụng.</li></ul></div><div class='space-y-2'><b>Thời gian giặt ghế sofa trong bao lâu?</b><p>Thời gian giặt ghế sofa của Thuan High Clean dao động khoảng 1 tiếng . Tùy vào số lượng nhiều hay ích và có vết bẩn cứng đầu thì thời gian vệ sinh có thể lâu hơn.</p></div><div class='space-y-2'><b>Sau khi giặt ghế sofa thì bao lâu có thể sử dụng được?</b><p>Sau khi vệ sinh, ghế sofa sẽ khô hoàn toàn trong khoảng từ 2 đến 4 giờ. Quý khách có thể sử dụng ghế sofa như bình thường mà không lo ghế bị ẩm mốc.</p></div><div class='space-y-2'><b>Bao lâu nên giặt ghế sofa 1 lần?</b><p>Theo các chuyên gia, nên vệ sinh ghế sofa định kỳ từ 3 – 6 tháng/lần. Đối với các vết bẩn như vụn thức ăn, chất bẩn dạng lỏng, vết mực, do thú cưng tè… thì bạn cần vệ sinh càng sớm càng tốt.</p><div><h2 style='margin: 60px 0 20px' class='text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5'>Một số hình ảnh vệ sinh ghế Sofa do THUAN HIGH CLEAN thực hiện</h2><img style='max-w-[75%] margin: 0 auto' src='/assets/images/ve-sinh-sofa/4.png' alt='vệ sinh sofa' class='mx-auto'/><img style='max-w-[75%] margin: 0 auto' src='/assets/images/ve-sinh-sofa/5.png' alt='vệ sinh sofa' class='mx-auto'/><img style='max-w-[75%] margin: 0 auto' src='/assets/images/ve-sinh-sofa/6.png' alt='vệ sinh sofa' class='mx-auto'/></div></div>"
       }
     },
     {
@@ -398,7 +440,7 @@
     },
     {
       "name": "Giặt nệm tại nhà",
-      "descriptionImage": "/assets/images/ve-sinh-nem/img_1.png",
+      "descriptionImage": "/assets/images/ve-sinh-nem/1.png",
       "seo": {
         "title": "Dịch vụ giặt, mài và phục hồi nệm tại nhà chuyên nghiệp - Thuan High Clean",
         "description": "Thuan High Clean cung cấp dịch vụ giặt, mài và phục hồi nệm tại nhà, giúp nệm của bạn sạch sẽ, êm ái và bền lâu. Quy trình hiện đại, tiết kiệm thời gian, bảo vệ sức khỏe gia đình bạn.",
@@ -437,8 +479,8 @@
       "note": "",
       "process": {
         "title": "Dịch vụ giặt nệm tại nhà của THUAN HIGH CLEAN có gì?",
-        "images": ["/assets/images/ve-sinh-nem/img_2.png"],
-        "description": "<h3 class='text-secondary font-bold text-lg pb-2'>Quy trình vệ sinh nệm chuẩn quốc tế</h3><p>Tùy vào công ty sẽ có quy trình vệ sinh nệm khác nhau. Đối với Thuan High Clean, chúng tôi dùng kinh nghiệm và thiết bị công nghệ hiện đại để xây dựng một quy trình như sau:</p>",
+        "images": ["/assets/images/ve-sinh-nem/4.png"],
+        "description": "<img src='/assets/images/ve-sinh-nem/2.png' alt='vệ sinh nệm' class='mx-auto'/><h3 class='text-secondary font-bold text-lg pb-2'>Quy trình vệ sinh nệm chuẩn quốc tế</h3><p>Tùy vào công ty sẽ có quy trình vệ sinh nệm khác nhau. Đối với Thuan High Clean, chúng tôi dùng kinh nghiệm và thiết bị công nghệ hiện đại để xây dựng một quy trình như sau:</p>",
         "steps": [
           {
             "step": "",
@@ -466,7 +508,7 @@
           },
           {
             "step": "",
-            "description": "<p><b>Bước 7:</b> Dọn dẹp sạch sẽ và bàn giao cho khách hàng.</p>"
+            "description": "<p><b>Bước 7:</b> Dọn dẹp sạch sẽ và bàn giao cho khách hàng.</p> <img src='/assets/images/ve-sinh-nem/3.png' alt='vệ sinh nệm' class='mx-auto'/>"
           },
           {
             "step": "Với quy trình như trên chắc chắn sẽ:",
@@ -474,11 +516,11 @@
           }
         ],
         "note": "<p><b>* Lưu ý:</b> <i>Tùy thuộc vào từng loại nệm sẽ có một số thay đổi trong trong quy trình vệ sinh.</i></p>",
-        "addition": "<div><h3 class='text-secondary font-bold text-lg pb-2'>Dịch vụ giặt nệm với đội ngũ chuyên nghiệp</h3><p>Đây chính là những người sẽ trực tiếp thực hiện các công đoạn của dịch vụ giặt nệm tại nhà.Những nhân viên là bộ mặt đại diện cho Thuan High Clean, cũng như là nhân tố chính cho sự thành công của dịch vụ vệ sinh nệm tại nhà.Cho nên các nhân viên được tuyển chọn phải là những người có nhiều kinh nghiệm trong việc dọn dẹp. Là những người có thái độ thân thiện, lịch sự, ngay thẳng và trung thực được đánh giá cao bởi khách hàng. </p></div><div><h3 class='text-secondary font-bold text-lg pb-2'>Nâng cao chất lượng dịch vụ giặt nệm với trang thiết bị hiện đại</h3><p>Trang thiết bị máy móc hiện đại, phục vụ cho việc làm sạch nệm hiệu quả. Dịch vụ giặt nệm Thuan High Clean với trang thiết bị chuyên dụng <img src='/assets/images/ve-sinh-nem/img_3.png' alt='vệ sinh nệm' /> Về dung dịch tẩy rửa, khử mùi, Thuan High Clean luôn đặt yếu tố an toàn sức khỏe lên hàng đầu. Do đó, những dung dịch được sử dụng luôn phải được kiểm tra nguồn gốc xuất xứ rõ ràng, kiểm chứng độ an toàn khi sử dụng.Điều này nhằm mang đến niềm tin và sự an tâm cho khách hàng khi sử dụng các dịch vụ.</p></div><div><h3 class='text-secondary font-bold text-lg pb-2'>Chính sách bảo hành rõ ràng, minh bạch</h3><p>Nắm bắt được tâm lý quan ngại về chất lượng sau khi vệ sinh nệm, chúng tôi luôn đưa ra chính sách bảo hành đi kèm với dịch vụ giặt nệm. Trong vòng 48 giờ đồng hồ nếu có vấn đề sau khi giặt, khách hàng có thể chủ động gọi điện đến Thuan High Clean để được hỗ trợ xử lý nhanh chóng và không phát sinh thêm chi phí.</p></div>"
+        "addition": "<div><h3 class='text-secondary font-bold text-lg pb-2'>Dịch vụ giặt nệm với đội ngũ chuyên nghiệp</h3><p>Đây chính là những người sẽ trực tiếp thực hiện các công đoạn của dịch vụ giặt nệm tại nhà.Những nhân viên là bộ mặt đại diện cho Thuan High Clean, cũng như là nhân tố chính cho sự thành công của dịch vụ vệ sinh nệm tại nhà.Cho nên các nhân viên được tuyển chọn phải là những người có nhiều kinh nghiệm trong việc dọn dẹp. Là những người có thái độ thân thiện, lịch sự, ngay thẳng và trung thực được đánh giá cao bởi khách hàng. </p></div><div><h3 class='text-secondary font-bold text-lg pb-2'>Nâng cao chất lượng dịch vụ giặt nệm với trang thiết bị hiện đại</h3><p>Trang thiết bị máy móc hiện đại, phục vụ cho việc làm sạch nệm hiệu quả. Dịch vụ giặt nệm Thuan High Clean với trang thiết bị chuyên dụng <img src='/assets/images/ve-sinh-nem/img_3.png' alt='vệ sinh nệm' /> Về dung dịch tẩy rửa, khử mùi, Thuan High Clean luôn đặt yếu tố an toàn sức khỏe lên hàng đầu. Do đó, những dung dịch được sử dụng luôn phải được kiểm tra nguồn gốc xuất xứ rõ ràng, kiểm chứng độ an toàn khi sử dụng.Điều này nhằm mang đến niềm tin và sự an tâm cho khách hàng khi sử dụng các dịch vụ.</p></div><div><h3 class='text-secondary font-bold text-lg pb-2'>Chính sách bảo hành rõ ràng, minh bạch</h3><p>Nắm bắt được tâm lý quan ngại về chất lượng sau khi vệ sinh nệm, chúng tôi luôn đưa ra chính sách bảo hành đi kèm với dịch vụ giặt nệm. Trong vòng 48 giờ đồng hồ nếu có vấn đề sau khi giặt, khách hàng có thể chủ động gọi điện đến Thuan High Clean để được hỗ trợ xử lý nhanh chóng và không phát sinh thêm chi phí.</p> </div>"
       },
       "additionContent": {
         "title": "Các loại nệm được giặt phổ biến hiện nay",
-        "content": "<ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b>Giặt nệm cao su</b><p>Các sản phẩm nệm cao su hiện nay được làm chủ yếu từ cao su tổng hợp, cao su tự nhiên, cao su nhân tạo,… có các lỗ nhỏ bên trên giúp thoáng khí. Với đa dạng các thương hiệu nổi tiếng: Kymdan, Kim Cương, Amando, Dunlopillo,… Các lỗ thoát khí thiết kế trên nệm là nơi nhiều loại vi khuẩn trú ngụ. Vậy nên cần vệ sinh nệm tại nhà đình kỳ để bảo vệ sức khỏe cho bản thân và gia đình.</p><img src='/assets/images/ve-sinh-nem/img_4.png' alt='vệ sinh nệm cao su' /></li><li class='space-y-1'><b>Giặt nệm lò xo</b><p>Nệm lò xo với thiết kế nguyên khối khá cồng kềnh. Bởi vậy, để giặt được nệm lò xo sẽ gặp nhiều khó khăn. Nếu không có kinh nghiệm và các dụng cụ giặt ghế chuyên dụng sẽ vệ sinh được sạch nệm. Vì thế, việc sự dụng dịch vụ giặt đệm lò xo sẽ là giải pháp hiệu quả dành cho khách hàng.</p><img src='/assets/images/ve-sinh-nem/img_5.png' alt='vệ sinh nệm lò xo' /></li><li class='space-y-1'><b>Giặt nệm gấp</b><p>Nệm gấp hiện nay được sử dụng khá phổ biến, vậy nên việc vệ sinh loại nệm này cũng là điều quan tâm của khá nhiều khách hàng. Nếu quý khách hàng đang có nhu cầu vệ sinh nệm gấp hãy liên hệ với công ty chuyên giặt nệm. Việc này sẽ giúp quý khách hàng tiết kiệm thời gian, tiền bạc và đảm bảo nệm không bị hư hỏng trong quá trình vệ sinh.</p><img src='/assets/images/ve-sinh-nem/img_6.png' alt='vệ sinh nệm gấp' /></li></ul><div style='margin-top: 60px'><h2 class='text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5'>Hình ảnh trước và sau khi sử dụng nệm</h2><img src='/assets/images/ve-sinh-nem/img_7.png' /><img src='/assets/images/ve-sinh-nem/img_8.png' /></div>"
+        "content": "<ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b>Giặt nệm cao su</b><p>Các sản phẩm nệm cao su hiện nay được làm chủ yếu từ cao su tổng hợp, cao su tự nhiên, cao su nhân tạo,… có các lỗ nhỏ bên trên giúp thoáng khí. Với đa dạng các thương hiệu nổi tiếng: Kymdan, Kim Cương, Amando, Dunlopillo,… Các lỗ thoát khí thiết kế trên nệm là nơi nhiều loại vi khuẩn trú ngụ. Vậy nên cần vệ sinh nệm tại nhà đình kỳ để bảo vệ sức khỏe cho bản thân và gia đình.</p><img src='/assets/images/ve-sinh-nem/img_4.png' alt='vệ sinh nệm cao su' /></li><li class='space-y-1'><b>Giặt nệm lò xo</b><p>Nệm lò xo với thiết kế nguyên khối khá cồng kềnh. Bởi vậy, để giặt được nệm lò xo sẽ gặp nhiều khó khăn. Nếu không có kinh nghiệm và các dụng cụ giặt ghế chuyên dụng sẽ vệ sinh được sạch nệm. Vì thế, việc sự dụng dịch vụ giặt đệm lò xo sẽ là giải pháp hiệu quả dành cho khách hàng.</p><img src='/assets/images/ve-sinh-nem/img_5.png' alt='vệ sinh nệm lò xo' /></li><li class='space-y-1'><b>Giặt nệm gấp</b><p>Nệm gấp hiện nay được sử dụng khá phổ biến, vậy nên việc vệ sinh loại nệm này cũng là điều quan tâm của khá nhiều khách hàng. Nếu quý khách hàng đang có nhu cầu vệ sinh nệm gấp hãy liên hệ với công ty chuyên giặt nệm. Việc này sẽ giúp quý khách hàng tiết kiệm thời gian, tiền bạc và đảm bảo nệm không bị hư hỏng trong quá trình vệ sinh.</p><img src='/assets/images/ve-sinh-nem/img_6.png' alt='vệ sinh nệm gấp' /></li></ul><div style='margin-top: 60px'><h2 class='text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5'>Hình ảnh trước và sau khi sử dụng nệm</h2><img src='/assets/images/ve-sinh-nem/5.png' class='mx-auto'/><img src='/assets/images/ve-sinh-nem/6.png' class='mx-auto' /></div>"
       },
       "advantages": {
         "title": "",
@@ -513,7 +555,7 @@
           }
         ],
         "additionContent": {
-          "beforeImages": ["/assets/images/ve-sinh-nem/img_8.png"],
+          "beforeImages": ["/assets/images/ve-sinh-nem/8.png"],
           "title": "Tại sao nên vệ sinh, giặt nệm thường xuyên?",
           "content": "<ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b>Ngăn ngừa vi khuẩn và nấm mốc:</b><p>Nệm có thể tích tụ bụi bẩn, vi khuẩn, nấm mốc và các chất gây dị ứng. Vệ sinh thường xuyên giúp loại bỏ những yếu tố này, bảo vệ sức khỏe của bạn.</p></li><li class='space-y-1'><b>Giảm dị ứng:</b><p>Nếu bạn hay bị dị ứng, việc giặt nệm giúp loại bỏ bụi, phấn hoa và các chất gây dị ứng khác, tạo môi trường ngủ sạch sẽ hơn.</p></li><li class='space-y-1'><b>Ngăn ngừa côn trùng:</b><p>Nệm là nơi lý tưởng cho các loại côn trùng như rệp giường. Vệ sinh thường xuyên giúp ngăn chặn sự phát triển của chúng.</p></li><li class='space-y-1'><b>Cải thiện chất lượng giấc ngủ:</b><p>Một chiếc nệm sạch sẽ và thoáng mát giúp nâng cao chất lượng giấc ngủ, mang lại cảm giác thoải mái và thư giãn.</p></li><li class='space-y-1'><b>Kéo dài tuổi thọ của nệm:</b><p>Vệ sinh định kỳ giúp bảo quản nệm tốt hơn, giảm thiểu tình trạng hư hỏng và kéo dài tuổi thọ sử dụng.</p></li></ul>"
         },
@@ -597,48 +639,8 @@
         "title": "Câu hỏi thường gặp",
         "content": "<ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b>Bao lâu nên giặt rèm cửa 1 lần ?</b><p>bạn nên giặt rèm cửa định kỳ khoảng 3 – 6 tháng/lần. Vì rèm cửa là vật thường xuyên tiếp xúc với bụi, hấp thụ mùi hôi. Việc vệ sinh rèm cửa định kỳ giúp bảo vệ sức khỏe gia đình, nâng cao tuổi thọ cho rèm.</p><i>‘’Mẹo nhỏ để biết rèm nhà bạn có bẩn hay không’’: Hãy dùng giấy ăn hoặc khăn ướt để kiểm tra mức độ bám bụi trên rèm (mặt trước và sau rèm).</i></li><li class='space-y-1'><b>Thời gian giặt màn cửa là bao lâu ?</b><p>Thông thường thời gian giặt một bộ rèm, màn cửa khoảng 45 phút – 1 giờ. Tùy thuộc vào số lượng rèm, loại vết bẩn mà thời gian có thể nhiều hơn.</p></li><li class='space-y-1'><b>Sau khi giặt thì bao lâu rèm sẽ khô ?</b><p>Tầm trong khoảng 1 tiếng đồng hồ rèm sẽ khô hoàn toàn. Khách hàng có thể sử dụng thêm quạt hoặc máy lạnh để rèm khô nhanh hơn.</p></li></ul>"
       }
-    },
-
-    {
-      "name": "Vệ sinh sau xây dựng",
-      "seo": {
-          "title": "Dịch Vụ Vệ Sinh Sau Xây Dựng Uy Tín, Chuyên Nghiệp Tại THUAN HIGH CLEAN",
-          "description": "Tận hưởng dịch vụ vệ sinh sau xây dựng tại THUAN HIGH CLEAN. Chúng tôi cung cấp giải pháp làm sạch kỹ lưỡng, an toàn với thiết bị và hóa chất hiện đại, đảm bảo không gian sống hoàn hảo sau xây dựng. Đặt lịch ngay hôm nay để trải nghiệm dịch vụ tốt nhất!",
-          "keywords": "vệ sinh sau xây dựng, dịch vụ vệ sinh, làm sạch sau xây dựng, vệ sinh chuyên nghiệp, THUAN HIGH CLEAN, giá vệ sinh sau xây dựng, hóa chất vệ sinh, dịch vụ làm sạch công trình"
-      },
-      "title": "Dịch vụ vệ sinh sau xây dựng uy tín giá rẻ tại TPHCM",
-      "coverImage": "/assets/images/service-detail/clean-sofa.jpg",
-      "slug": "ve-sinh-sau-xay-dung",
-      "description": "<p><b>Vệ sinh nhà sau xây dựng</b> là một bước quan trọng trong quá trình hoàn tất công trình xây dựng. Trong quá trình thi công, một số vật dụng còn lại như xi măng, vết sơn, thạch cao, vết bẩn, bụi, rác và phế liệu công trình... có thể bám lại trên mặt bằng. Để tránh việc gây tắc nghẽn cho việc sử dụng, cần phải dọn dẹp và làm sạch kỹ càng những vật dụng này. </p>",
-      "advantages": {
-        "title": "Vì sao nên lựa chọn dịch vụ vệ sinh nhà sau xây dựng tại Thuan High Clean?",
-        "content": "<p>Thuan High Clean là một trong những công ty uy tín về dịch vụ vệ sinh nhà sau xây dựng tại Việt Nam. Chúng tôi luôn cam kết mang đến dịch vụ tốt nhất cho khách hàng, với những lý do sau:</p><ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b class='block'>Nhân viên chuyên nghiệp</b>Thuan High có đội ngũ viên chuyên nghiệp, có kinh nghiệm về dịch vụ vệ sinh sau xây dựng. Họ sẽ hoàn thành các công việc với chất lượng cao, đảm bảo sự hài lòng của khách hàng.</li><li class='space-y-1'><b class='block'>Thiết bị vệ sinh sau xây dựng hiện đại</b>Sử dụng thiết bị hiện đại và chuyên nghiệp để hoàn thành các công việc, giúp đạt được năng suất cao và chất lượng tốt nhất.</li><li class='space-y-1'><b class='block'>Quy trình vệ sinh nhà sau xây dựng tối ưu</b>Thuan High có quy trình vệ sinh nhà sau xây dựng tối ưu. Giúp đảm bảo tất cả các công việc được hoàn thành một cách tối đa với chi phí tối thiểu.</li><li class='space-y-1'><b class='block'>Cam kết chất lượng tốt nhất</b>Thuan High luôn cam kết chất lượng tốt nhất cho khách hàng. Chúng tôi sẽ hoàn thành các công việc với sự tận tâm và chất lượng cao nhất, đảm bảo cho khách hàng hài lòng.</li><li class='space-y-1'><b class='block'>Dịch vụ vệ sinh nhà sau xây dựng chuyên nghiệp</b>Chúng tôi có đội ngũ nhân viên chuyên nghiệp và được đào tạo bài bản về các kỹ thuật vệ sinh công trình sau xây dựng. Chúng tôi sử dụng các thiết bị và dụng cụ tiên tiến để hoàn thành công việc một cách hiệu quả và tốt nhất.</li><li class='space-y-1'><b class='block'>Giá cả hợp lý</b>Thuan High cung cấp dịch vụ vệ sinh công nghiệp sau xây dựng với giá cả hợp lý và phù hợp với túi tiền của khách hàng. Chúng tôi cam kết giá không phát sinh thêm chi phí.</li></ul>"
-      },
-      "priceTable": [],
-      "process": {
-        "title": "Quy trình vệ sinh sau xây dựng tại THUAN HIGH CLEAN",
-        "description": "Cung cấp dịch vụ giặt màn cửa tại nhà chuyên nghiệp và chất lượng, Thuan High Clean luôn đề cao quy trình thực hiện nghiêm ngặt trong từng bước để đem đến sự hài lòng, tiện lợi cho khách hàng của mình.",
-        "steps": [
-          {
-            "step": "Bước 1: Tiến hành khảo sát",
-            "description": "Sau khi tiếp nhận thông tin từ khách hàng, tùy thuộc vào nhu cầu như thế nào mà chúng tôi sẽ tiến hành khảo sát cũng như báo giá sơ bộ, làm hợp đồng."
-          },
-          {
-            "step": "Bước 2: Triển khai thi công",
-            "description": "<p>Đầu tiên, dọn dẹp hết xà bần( nếu có ) do các đơn vị thi công xây dựng và lắp đặt để lại.</p><p>Tiến hành vệ sinh các phần còn lại:</p><ul style='list-style: disc; padding-left: 40px' class='space-y-3'><li>Làm sạch trần: hút bụi trần nhà, mạng nhện, làm sạch bóng đèn, quạt trần (nếu có),..</li><li>Làm sạch tường: lau sạch vết bụi trên máy lạnh, máy quạt, bóng đèn, tranh, ảnh, ổ điện (nếu có),..</li><li>Làm sạch cửa: lau cửa sổ, cửa ra vào, vệ sinh kính lan can, kính cầu thang,..</li><li>Vệ sinh các đồ nội thất như bàn, ghế, giường, tủ, bếp,..</li><li>Vệ sinh toilet, bồn rửa mặt,..</li><li>Làm sạch sàn: tẩy vết sơn, xi măng, thạch cao, keo,…</li></ul>"
-          },
-          {
-            "step": "Bước 3: Nghiệm thu và bàn giao",
-            "description": "<ul style='list-style: disc; padding-left: 40px' class='space-y-3'><li>Khách hàng cùng với nhân viên của chúng tôi cùng đi nghiệm thu, nếu khách hàng chưa hài lòng ở phần nào có thể yêu cầu nhân viên xử lý lại.</li><li>Chính sách bảo hành của Thuan High Clean trong 3 ngày nghiệm thu xong nếu có bất kì sự cố: tường, sàn bị ố, inox chuyển màu do hóa chất,… Chỉ cần liên hệ 0357111566 sẽ được hỗ trợ khắc phục hoàn toàn miễn phí.</li></ul>"
-          }
-        ]
-      },
-      "beforePriceContent": [
-        {
-          "title": "Lợi ích của việc sử dụng dịch vụ Vệ sinh sau xây dựng tại Thuan High Clean",
-          "content": "<ul style='list-style: decimal; padding-left: 40px' class='space-y-3'><li class='space-y-1'><b>Tiết kiệm thời gian và công sức</b><p>Dọn dẹp sau xây dựng đòi hỏi nhiều thời gian và công sức do khối lượng bụi bẩn, mảnh vụn, và các chất còn lại. Dịch vụ vệ sinh chuyên nghiệp của Thuan High giúp gia chủ tiết kiệm công sức và nhanh chóng hoàn thiện không gian sống.</p></li><li class='space-y-1'><b>Đảm bảo sạch sẽ toàn diện</b><p>Thuan High có trang thiết bị chuyên dụng và kỹ năng để làm sạch từng ngóc ngách, từ sàn, tường, cửa sổ đến các chi tiết nhỏ. Đảm bảo ngôi nhà mới sạch sẽ, không còn sót lại vết bẩn nào.</p></li><li class='space-y-1'><b>Xử lý hóa chất và bụi xây dựng an toàn</b><p>Thuan High có biện pháp xử lý các hóa chất, bụi và mảnh vụn còn lại sau xây dựng, đảm bảo an toàn cho không khí và sức khỏe gia đình.</p></li><li class='space-y-1'><b>Sẵn sàng để vào ở</b><p>Sau khi dọn dẹp, ngôi nhà mới sẽ sẵn sàng, gọn gàng, và sạch sẽ, giúp gia đình có thể vào ở ngay mà không phải lo lắng thêm về vấn đề vệ sinh.</p></li></ul>"
-        }
-      ]
     }
+
+
   ]
 }
