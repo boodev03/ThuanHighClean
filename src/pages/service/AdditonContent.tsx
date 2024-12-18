@@ -10,7 +10,7 @@ export default function AdditionContent({ additionContent }: IProps) {
   return (
     <section className="container mx-auto">
       {additionContent.beforeImages?.map((image) => (
-        <img key={image} src={image} alt={image} />
+        <img key={image} src={image} alt={image} className="mx-auto" />
       ))}
       <h2 className="text-[32px] max-w-[100%] md:max-w-[70%] text-primary text-justify font-bold mb-5">
         {additionContent?.title}

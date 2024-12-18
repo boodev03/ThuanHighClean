@@ -22,7 +22,7 @@ export function HomeCarousel() {
         {Array.from({ length: 1 }).map((_, index) => (
           <CarouselItem key={index}>
             <img
-              src="./assets/images/banner_final.png"
+              src="./assets/images/thuan400k-01.jpg"
               alt="Thuan High Clean"
             />
           </CarouselItem>

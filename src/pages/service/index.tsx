@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { getServiceBySlug } from "@/data/services";
 import { Link, useParams } from "react-router-dom";
 import AdditionService from "./AdditionService";
@@ -29,22 +28,6 @@ export default function ServicePage() {
         />
       )}
       <div className="mb-[60px]">
-        <div className="relative">
-          <div
-            className="banner"
-            style={{
-              backgroundImage: `url(${service?.coverImage})`,
-            }}
-          />
-          <div className="px-3 lg:px-0 lg:absolute lg:top-1/2 lg:max-w-[550px] lg:left-1/4 lg:-translate-x-1/4 lg:-translate-y-1/2">
-            <p className="lg:[text-shadow:_0_0_10px_rgba(0_0_0_/_0.5)] lg:text-[#F5F5F5] text-[40px] font-bold my-4 lg:my-0">
-              {service?.name}
-            </p>
-            <Button className="font-bold shadow-none mt-8">
-              Trải nghiệm dịch vụ ngay !
-            </Button>
-          </div>
-        </div>
         <div className="space-y-10 mt-[60px]">
           <IntroduceService
             title={service?.title}

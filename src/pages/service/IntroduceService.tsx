@@ -18,7 +18,7 @@ export default function IntroduceService({
       </h2>
 
       {descriptionImage && (
-        <img src={descriptionImage} alt={title} className="mb-5" />
+        <img src={descriptionImage} alt={title} className="mb-5 mx-auto" />
       )}
 
       <p
@@ -28,7 +28,7 @@ export default function IntroduceService({
 
       {additionImages &&
         additionImages.map((image) => (
-          <img key={image} src={image} alt={title} className="mb-5" />
+          <img key={image} src={image} alt={title} className="mb-5 mx-auto" />
         ))}
     </section>
   );
