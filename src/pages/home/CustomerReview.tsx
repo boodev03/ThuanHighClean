@@ -66,24 +66,31 @@ const CustomerReviewCard = ({
   rating,
 }: CustomerReviewProps) => {
   return (
-    <Card className="size-full">
-      <CardHeader className="flex flex-row items-center gap-4 pb-2">
-        <Avatar>
-          <AvatarImage src={avatarSrc} alt={name} />
-          <AvatarFallback>
-            {name
-              .split(" ")
-              .map((n) => n[0])
-              .join("")}
-          </AvatarFallback>
-        </Avatar>
+    <Card className="size-full hover:shadow-xl transition-all duration-300 border-gray-100 hover:border-primary/20 group">
+      <CardHeader className="flex flex-row items-center gap-4 pb-3">
+        <div className="relative">
+          <Avatar className="ring-2 ring-primary/10 group-hover:ring-primary/30 transition-all duration-300">
+            <AvatarImage src={avatarSrc} alt={name} />
+            <AvatarFallback className="bg-gradient-to-br from-primary/20 to-primary/10">
+              {name
+                .split(" ")
+                .map((n) => n[0])
+                .join("")}
+            </AvatarFallback>
+          </Avatar>
+          <div className="absolute -bottom-1 -right-1 bg-primary text-white rounded-full p-0.5">
+            <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" />
+            </svg>
+          </div>
+        </div>
         <div>
-          <h3 className="text-lg font-semibold">{name}</h3>
-          <div className="flex">
+          <h3 className="text-base sm:text-lg font-bold text-gray-900">{name}</h3>
+          <div className="flex gap-0.5">
             {[...Array(5)].map((_, i) => (
               <Star
                 key={i}
-                className={`h-4 w-4 ${
+                className={`h-4 w-4 transition-all duration-300 ${
                   i < rating
                     ? "text-yellow-400 fill-yellow-400"
                     : "text-gray-300"
@@ -94,7 +101,14 @@ const CustomerReviewCard = ({
         </div>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-600 tracking-[0.5px]">{review}</p>
+        <div className="relative">
+          <svg className="absolute -top-2 -left-1 w-8 h-8 text-primary/10" fill="currentColor" viewBox="0 0 32 32">
+            <path d="M10 8c-3.3 0-6 2.7-6 6v10h8V14h-4c0-2.2 1.8-4 4-4V8zm14 0c-3.3 0-6 2.7-6 6v10h8V14h-4c0-2.2 1.8-4 4-4V8z" />
+          </svg>
+          <p className="text-[13px] sm:text-base text-gray-700 leading-relaxed relative z-10 pl-6">
+            {review}
+          </p>
+        </div>
       </CardContent>
     </Card>
   );
@@ -102,10 +116,15 @@ const CustomerReviewCard = ({
 export default function CustomerReview() {
   const plugin = React.useRef(Autoplay({ delay: 4000 }));
   return (
-    <section className="container mx-auto mt-[60px]">
-      <h2 className="text-[32px] max-w-[100%]  md:max-w-[70%] text-[#333] font-bold mb-10">
-        Chia sẻ của khách hàng
-      </h2>
+    <section className="container mx-auto mt-[80px] px-4 sm:px-6 lg:px-8">
+      <div className="text-center mb-8 sm:mb-12">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">
+          Chia sẻ của khách hàng
+        </h2>
+        <p className="text-gray-600 text-sm sm:text-base max-w-2xl mx-auto">
+          Những trải nghiệm thực tế từ khách hàng đã sử dụng dịch vụ
+        </p>
+      </div>
       <Carousel
         plugins={[plugin.current]}
         className="w-full [&>div]:p-1"

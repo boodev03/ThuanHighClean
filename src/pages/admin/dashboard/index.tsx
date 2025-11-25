@@ -61,17 +61,17 @@ export default function AdminDashboard() {
     });
   }
 
-  const checkLogin = () => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-      navigate("/admin/login");
-    }
-  }
+  // const checkLogin = () => {
+  //   const token = localStorage.getItem("token");
+  //   if (!token) {
+  //     navigate("/admin/login");
+  //   }
+  // }
   // get all message
   useEffect(() => {
-    checkLogin();
-    fetchMessages();
-    fetchOrders();
+    // checkLogin();
+    // fetchMessages();
+    // fetchOrders();
   }, []);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {

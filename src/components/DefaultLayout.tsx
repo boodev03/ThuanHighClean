@@ -14,7 +14,9 @@ export default function DefaultLayout() {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className="pt-[60px] lg:pt-[80px]">
+        <Outlet />
+      </div>
       <Footer />
       <ContactOptions />
       <AdvisePopup />

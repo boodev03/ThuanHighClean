@@ -53,7 +53,7 @@ export default function ContactPage() {
       <div className="min-h-screen bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center p-4">
         <div className="flex flex-col md:flex-row bg-white p-8 rounded-2xl shadow-2xl max-w-4xl w-full transition-all duration-300 ease-in-out transform hover:shadow-3xl">
           <div className="md:w-1/2 pr-4">
-            <h2 className="text-3xl font-bold mb-6">Gửi phản hồi</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Gửi phản hồi</h2>
             <div className="space-y-6">
               <div className="flex space-x-4">
                 <div className="w-1/2 group">
@@ -64,7 +64,7 @@ export default function ContactPage() {
                     spellCheck="false"
                     value={formData.nameOfCustomer}
                     onChange={(e) => onChange("nameOfCustomer", e.target.value)}
-                    className="w-full bg-gray-100 h-10 border placeholder:text-secondary text-secondary rounded-[8px] p-3 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
+                    className="w-full bg-gray-100 h-10 border placeholder:text-secondary text-secondary text-sm md:text-base rounded-[8px] p-3 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
                     placeholder="Tên của bạn"
                     required
                   />
@@ -77,7 +77,7 @@ export default function ContactPage() {
                     spellCheck="false"
                     value={formData.phone}
                     onChange={(e) => onChange("phone", e.target.value)}
-                    className="w-full bg-gray-100 h-10 border placeholder:text-secondary text-secondary rounded-[8px] p-3 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
+                    className="w-full bg-gray-100 h-10 border placeholder:text-secondary text-secondary text-sm md:text-base rounded-[8px] p-3 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
                     placeholder="Số điện thoại"
                     required
                   />
@@ -88,7 +88,7 @@ export default function ContactPage() {
                 <select
                   name="service"
                   value={formData.service}
-                  className="w-full text-[15px] bg-gray-100 text-secondary p-2 mt-2 border rounded-[8px] focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full text-sm md:text-base bg-gray-100 text-secondary p-2 mt-2 border rounded-[8px] focus:outline-none focus:ring-2 focus:ring-primary"
                   required
                   onChange={(e) => onChange("service", e.target.value)}
                 >
@@ -109,26 +109,26 @@ export default function ContactPage() {
                   rows={4}
                   value={formData.message}
                   spellCheck="false"
-                  className="w-full border bg-gray-100 text-gray-900 rounded-[8px] p-3 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
+                  className="w-full border bg-gray-100 text-gray-900 text-sm md:text-base rounded-[8px] p-3 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
                   placeholder="Thông tin góp ý"
                   required
                 ></textarea>
               </div>
               <button
                 onClick={onSubmit}
-                className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold py-3 px-4 rounded-[8px] focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+                className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white font-bold text-sm md:text-base py-3 px-4 rounded-[8px] focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
               >
                 Gửi
               </button>
             </div>
           </div>
           <div className="md:w-1/2 mt-8 md:mt-0 pl-4 border-t md:border-t-0 md:border-l border-gray-200 pt-8 md:pt-0 md:pl-8">
-            <h2 className="text-3xl font-bold mb-6">Liên hệ</h2>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6">Liên hệ</h2>
             <div className="space-y-4">
-              <p className="flex cursor-default items-center text-gray-700 transition-all duration-300 ease-in-out transform hover:translate-x-2">
+              <p className="flex cursor-default items-center text-gray-700 text-sm md:text-base transition-all duration-300 ease-in-out transform hover:translate-x-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-3"
+                  className="h-5 w-5 md:h-6 md:w-6 mr-2 md:mr-3"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -142,10 +142,10 @@ export default function ContactPage() {
                 </svg>
                 thuanhighclean@gmail.com
               </p>
-              <p className="flex cursor-default items-center text-gray-700 transition-all duration-300 ease-in-out transform hover:translate-x-2">
+              <p className="flex cursor-default items-center text-gray-700 text-sm md:text-base transition-all duration-300 ease-in-out transform hover:translate-x-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 mr-3"
+                  className="h-5 w-5 md:h-6 md:w-6 mr-2 md:mr-3"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

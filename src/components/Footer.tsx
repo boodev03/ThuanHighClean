@@ -27,7 +27,7 @@ export default function Footer() {
               <img
                 src="/assets/images/logo.png"
                 alt="Thuan High Clean"
-                className="max-w-[200px]"
+                className="max-w-[100px]"
               />
             </Link>
             <p>
